@@ -1,0 +1,705 @@
+<!DOCTYPE html>
+<html lang="it">
+	<head>
+		<title>Angelo Fortunato Formiggini: filosofo del Ridere</title>
+		<!--Favicon-->
+		<link rel="icon" type="image/x-icon" href="img/favicon.ico">
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<!--Bootstrap CSS-->
+		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+		<!-- CSS -->
+		<link rel="stylesheet" href="style/stile-itemslist.css">
+		<!-- Font Google -->
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Noto+Sans">
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oswald">
+		<!--Font Awesome 5-->
+		<script src="https://kit.fontawesome.com/dca82946ca.js" crossorigin="anonymous"></script>
+		<!--Metadatazione DC-->
+		<META NAME="DC.Title" CONTENT="Angelo Fortunato Formiggini: filosofo del Ridere">
+		<META NAME="DC.Creator" CONTENT="Giulia Varriale">
+		<META NAME="DC.Subject" CONTENT="Formiggini, editoria, fascismo, opere, politica">
+		<META NAME="DC.Description" CONTENT="Sito creato per l'esame di Digital Humanities">
+		<META NAME="DC.Publisher" CONTENT="Università di Bologna">
+		<META NAME="DC.Date" CONTENT="2023">
+		<META NAME="DC.Type" CONTENT="Sito web">
+		<META NAME="DC.Format" CONTENT="HTML">
+		<!-- Inserire URI appena carichi sito su Github-->
+		<META NAME="DC.Identifier" CONTENT="TBD una volta che sia pubblicato">		
+		<META NAME="DC.Language" CONTENT="It">
+		<META NAME="DC.Rights" CONTENT="Accesso libero creative commons">
+	</head>
+	<body>
+		<!-- Elemento header per la testata di pagina -->
+		<header>
+			<div class="testata">
+				<!--Attributo Bootstrap "rounded-circle" per avere il logo della testata con bordi circolari-->
+				<img class="logo-testata rounded-circle" src="img/casa-del-ridere.jpg"  alt="Logo della raccolta Casa del Ridere" title="Logo della raccolta Casa del Ridere" />
+				<h1 class= "testo-testata">Angelo Fortunato Formiggini: filosofo del ridere</h1>
+			</div>
+		</header>
+		<!-- Elemento nav per il menù di navigazione -->
+		<nav class="testo-nav">
+			<div><a href="index.html" title="Torna alla Home">Home</a> | <a href="#" title="Introduzione al progetto">Introduzione</a> | <a href="#" title="Biografia di Angelo Fortunato Formiggini">Biografia</a> | <a href="#" class="pagina-attiva">Opere</a>
+			</div>
+		</nav>     
+		<!-- Elemento section per gli items -->
+		<section class="container-fluid">
+			<div class=row>
+				<!--Colonna aside-->				
+					<div class="leftcolumn">
+						<!--Breadcrumbs-->
+						<div class="navbar-breadcrumbs" aria-label="breadcrumb">
+							<ol class="breadcrumb">
+							    <li class="breadcrumb-item"><a href="index.html" class="breadcrumb" title="Torna alla Home"><strong>Home</strong></a></li>
+							    <li class="breadcrumb-item" aria-current="page">Opere</li>
+							  </ol>
+						</div>
+						<p><a class="leftcolumn" href="items-list.html" style="font-size: 25px;">Vedi tutte le opere
+								<i class="fa-solid fa-circle-arrow-right"></i>
+							</a>
+						</p>
+						<!--Accordion con filtri e checkbox-->
+						<div class="filters">
+							<!--Filtri per tipologia-->
+							<button class="accordion">Filtra per <strong>tipologia</strong>
+							</button>
+							<div class="panel">
+							  <ul class="filters-nav">
+								<li class="filters-nav">Libro<input class="form-check-input" type="checkbox"></li>
+							   	<li class="filters-nav">Rivista / periodico<input class="form-check-input" type="checkbox"></li> 
+							    <li class="filters-nav">Lettera e carteggio<input class="form-check-input" type="checkbox"></li>
+							    <li class="filters-nav">Cartolina<input class="form-check-input" type="checkbox"></li>
+							    <li class="filters-nav">Stampa<input class="form-check-input" type="checkbox"></li>
+							  </ul>
+							</div>												
+							<!--Filtri per tema-->
+							<button class="accordion">Filtra per <strong>tema</strong>
+							</button>
+							<div class="panel">							
+								<ul class="filters-nav">
+									<li class="filters-nav">La secchia rapita<input class="form-check-input" type="checkbox"></li>
+									<li class="filters-nav">Saggistica sul Tassoni<input class="form-check-input" type="checkbox"></li>
+									<li class="filters-nav">Per coloro che leggono<input class="form-check-input" type="checkbox"></li>
+									<li class="filters-nav">Giovanni Gentile<input class="form-check-input" type="checkbox"></li>
+									<li class="filters-nav">La Grande Guerra<input class="form-check-input" type="checkbox"></li>
+									<li class="filters-nav">Dizionari e Dizionarietti<input class="form-check-input" type="checkbox"></li>
+									<li class="filters-nav">Le lettere<input class="form-check-input" type="checkbox"></li>
+									<li class="filters-nav">Il solco sottile di Moroni<input class="form-check-input" type="checkbox"></li>
+								</ul>
+							</div>
+							<!--Filtri per data-->
+							<button class="accordion">Filtra per <strong>data</strong>
+							</button>
+							<div class="panel">	
+								<ul class="filters-nav">
+									<li class="filters-nav">1908<input class="form-check-input" type="checkbox"></li>
+								   	<li class="filters-nav">1908-1935<input class="form-check-input" type="checkbox"></li>	
+									<li class="filters-nav">1914-1915<input class="form-check-input" type="checkbox"></li>
+									<li class="filters-nav">1914-1918<input class="form-check-input" type="checkbox"></li>
+									<li class="filters-nav">1915<input class="form-check-input" type="checkbox"></li>
+									<li class="filters-nav">1916<input class="form-check-input" type="checkbox"></li>	
+									<li class="filters-nav">1919<input class="form-check-input" type="checkbox"></li>
+									<li class="filters-nav">1920<input class="form-check-input" type="checkbox"></li>
+									<li class="filters-nav">1921<input class="form-check-input" type="checkbox"></li>
+									<li class="filters-nav">1923<input class="form-check-input" type="checkbox"></li>				
+									<li class="filters-nav">1928<input class="form-check-input" type="checkbox"></li>
+									<li class="filters-nav">1929-1932<input class="form-check-input" type="checkbox"></li>		
+								</ul>
+							</div>											
+						</div>
+					</div>									
+					<!--Main Column-->
+					<div class="rightcolumn">
+						<!--Nav con categorie cliccabili e collegate al rispettivo contenuto tramite HOW TO - TABS-->
+						<div class="row">
+							<div class="col">									                
+						       	<ul class="nav nav-tabs">
+								  <li class="nav-item">
+								    <a class="nav-link" id="defaultOpen" aria-current="page" href="#" title="Tutte le opere digitalizzate" onclick="openCity(event, 'Tutte')" style="color: black">Tutte</a>
+								  </li>
+								  <li class="nav-item">
+								    <a class="nav-link" href="#" title="Tutti i libri digitalizzati" onclick="openCity(event, 'Libro')">Libro</a>
+								  </li>
+								  <li class="nav-item">
+								    <a class="nav-link" href="#" title="Tutte le riviste e i periodici digitalizzati" onclick="openCity(event, 'Rivista / periodico')">Rivista / periodico</a>
+								  </li>
+								  <li class="nav-item">
+								    <a class="nav-link" href="#" title="Tutte le lettere e carteggi digitalizzati" onclick="openCity(event, 'Lettera e carteggio')">Lettera e carteggio</a>
+								  </li>
+								   <li class="nav-item">
+								    <a class="nav-link" href="#" title="Tutte le cartoline digitalizzate" onclick="openCity(event, 'Cartolina')">Cartolina</a>
+								  </li>
+								   <li class="nav-item">
+								    <a class="nav-link" href="#" title="Tutte le stampe digitalizzate" onclick="openCity(event, 'Stampa')">Stampa</a>
+								  </li>							  
+								</ul>
+							</div>
+						</div>
+						<!--Contenuto delle categorie della nav-->
+						<div class="row">
+							<div class="col">
+								<!--Categoria: tutte le opere-->
+								<div id="Tutte" class="city">
+									<div class="row">
+										<div class="col">
+											<a href="#">
+											<div class="card h-100">
+												<img src="img/la-secchia.jpg" class="card-img-top h-100" alt="La Secchia, 1908" />
+												<div class="card-body">
+													<h5 class="card-title">La Secchia</h5>
+													<h6 class="card-subtitle">contiene sonetti burleschi inediti del Tassone e molte invenzioni piacevoli e curiose, vagamente illustrate, edite per la famosa festa mutino-bononiense del 31 Maggio mcmviii / prefazione di Olindo Guerrini</h6>
+													<p class="card-text">Pubblicazione: <strong>Bologna ; Modena : A.F. Formiggini</strong><br>Ente di appartenenza: <strong>The Robarts Library - University of Toronto</strong><br>Datazione: <strong>1908</strong></p>	
+												</div>
+											</div></a>
+										</div>	
+										<div class="col">
+											<a href="#">
+											<div class="card h-100">
+												<img src="img/tassoni.jpg" class="card-img-top h-100" alt="Miscellanea tassoniana, 1908" />
+												<div class="card-body">
+													<h5 class="card-title">					Miscellanea tassoniana di studi storici e letterari</h5>
+													<h6 class="card-subtitle">pubblicata nella festa della Fossalta, 28 giugno 1908 / a cura di Tommaso Casini e di Venceslao Santi ; con prefazione di Giovanni Pascoli</h6>
+													<p class="card-text">Pubblicazione: <strong>Bologna ; Modena : A.F. Formiggini</strong><br>Ente di appartenenza: <strong>The Robarts Library - University of Toronto</strong><br>Datazione: <strong>1908</strong></p>		
+												</div>
+											</div></a>
+										</div>
+										<div class="col">
+											<a href="#">
+											<div class="card h-100">
+												<img src="img/lettera.jpg" class="card-img-top h-100" alt="Lettere di A.F.Formiggini, 1908-1935" />
+												<div class="card-body">
+													<h5 class="card-title">Lettere di Formiggini, Angelo Fortunato</h5>
+													<p class="card-text">Segnatura: <strong>AEF.FORMIGGINI</strong><br>Collezione: <strong>Archivio Formiggini / Lettere e carteggi</strong><br>Consistenza: <strong>0</strong><br>Ente di appartenenza: <strong>Biblioteca Estense Universitaria</strong><br>Datazione: <strong>1908-1935</strong></p>	
+												</div>
+											</div></a>
+										</div>
+										<div class="col">
+											<a href="#">
+											<div class="card h-100">
+												<img src="img/stampa.jpg" class="card-img-top h-100" alt="Novella prima, illustrazione, 1914-1915" />
+												<div class="card-body">
+													<h5 class="card-title">Novella prima: Gianni Lotteringhi e la moglie. Illustrazione per "Decamerone. Dioneo: giornata settima"</h5>
+													<p class="card-text">Attribuzioni: <strong>Moroni, Antonello</strong><br>Materia e tecnica: <strong>carta / xilografia</strong><br>Luogo di conservazione: <strong>Palazzo Romagnoli. Collezioni del Novecento</strong><br>Datazione: <strong>1914-1915</strong>
+													</p>									
+												</div>
+											</div></a>
+										</div>
+										<div class="col">
+											<a href="#">
+											<div class="card h-100">
+												<img src="img/stampa4.jpg" class="card-img-top h-100" alt="Novella quarta, illustrazione, 1914-1915" />
+												<div class="card-body">
+													<h5 class="card-title">Novella quarta: Lauretta. Illustrazione per "Decamerone. Dioneo: giornata settima"</h5>
+													<p class="card-text">Attribuzioni: <strong>Moroni, Antonello</strong><br>Materia e tecnica: <strong>carta / xilografia</strong><br>Luogo di conservazione: <strong>Palazzo Romagnoli. Collezioni del Novecento</strong><br>Datazione: <strong>1914-1915</strong>
+													</p>									
+												</div>
+											</div></a>
+										</div>	
+										<div class="col">
+											<a href="#">
+											<div class="card h-100">
+												<img src="img/stampa5.jpg" class="card-img-top h-100" alt="Novella quinta, illustrazione, 1914-1915" />
+												<div class="card-body">
+													<h5 class="card-title">Novella quinta: il geloso. Illustrazione per "Decamerone. Dioneo: giornata settima"</h5>
+													<p class="card-text">Attribuzioni: <strong>Moroni, Antonello</strong><br>Materia e tecnica: <strong>carta / xilografia</strong><br>Luogo di conservazione: <strong>Palazzo Romagnoli. Collezioni del Novecento</strong><br>Datazione: <strong>1914-1915</strong>
+													</p>									
+												</div>
+											</div></a>
+										</div>
+										<div class="col">
+											<a href="#">
+											<div class="card h-100">
+												<img src="img/stampa6.jpg" class="card-img-top h-100" alt="Novella sesta, illustrazione, 1914-1915" />
+												<div class="card-body">
+													<h5 class="card-title">Novella sesta: Madonna Isabella e Leonetto. Illustrazione per "Decamerone. Dioneo: giornata settima"</h5>
+													<p class="card-text">Attribuzioni: <strong>Moroni, Antonello</strong><br>Materia e tecnica: <strong>carta / xilografia</strong><br>Luogo di conservazione: <strong>Palazzo Romagnoli. Collezioni del Novecento</strong><br>Datazione: <strong>1914-1915</strong>
+													</p>									
+												</div>
+											</div></a>
+										</div>
+										<div class="col">
+											<a href="#">
+											<div class="card h-100">
+												<img src="img/stampa7.jpg" class="card-img-top h-100" alt="Novella settima, illustrazione, 1914-1915" />
+												<div class="card-body">
+													<h5 class="card-title">Novella settima: Ludovico ed Egàno. Illustrazione per "Decamerone. Dioneo: giornata settima"</h5>
+													<p class="card-text">Attribuzioni: <strong>Moroni, Antonello</strong><br>Materia e tecnica: <strong>carta / xilografia</strong><br>Luogo di conservazione: <strong>Palazzo Romagnoli. Collezioni del Novecento</strong><br>Datazione: <strong>1914-1915</strong>
+													</p>									
+												</div>
+											</div></a>
+										</div>
+										<div class="col">
+											<a href="#">
+											<div class="card h-100">
+												<img src="img/stampa8.jpg" class="card-img-top h-100" alt="Novella ottava, illustrazione, 1914-1915" />
+												<div class="card-body">
+													<h5 class="card-title">Novella ottava: Neifile. Illustrazioni per "Decamerone. Dioneo: giornata settima"</h5>
+													<p class="card-text">Attribuzioni: <strong>Moroni, Antonello</strong><br>Materia e tecnica: <strong>carta / xilografia</strong><br>Luogo di conservazione: <strong>Palazzo Romagnoli. Collezioni del Novecento</strong><br>Datazione: <strong>1914-1915</strong>
+													</p>									
+												</div>
+											</div></a>
+										</div>
+										<div class="col">
+											<a href="#">
+											<div class="card h-100">
+												<img src="img/cartolina-satirica.png" class="card-img-top h-100" alt="Atletica, cartoline postali-V1, 1914-1915" />
+												<div class="card-body">
+													<h5 class="card-title">Atletica</h5>
+													<h6 class="card-subtitle">Cartoline postali satiriche e di propaganda</h6>
+													<p class="card-text">Autore: <strong>Benedetti, E.</strong><br>Segnatura: <strong>CDR.CARTOLINE-V1</strong><br>Collezione: <strong>Archivio Formiggini / Casa del ridere</strong><br>Ente di appartenenza: <strong>Biblioteca Estense Universitaria</strong><br>Datazione: <strong>1914-1915</strong></p>			
+												</div>
+											</div></a>
+										</div>
+										<div class="col">
+											<a href="#">
+											<div class="card h-100">
+												<img src="img/cartolina-satirica2.png" class="card-img-top h-100" alt="L'ingordo, cartoline postali-V2, 1914-1918" />
+												<div class="card-body">
+													<h5 class="card-title">L'ingordo / Golia</h5>
+													<h6 class="card-subtitle">Cartoline postali satiriche e di propaganda</h6>
+													<p class="card-text">Autore: <strong>Colmo, Eugenio</strong><br>Segnatura: <strong>CDR.CARTOLINE-V2</strong><br>Collezione: <strong>Archivio Formiggini / Casa del ridere</strong><br>Ente di appartenenza: <strong>Biblioteca Estense Universitaria</strong><br>Datazione: <strong>1914-1918</strong></p>			
+												</div>
+											</div></a>
+										</div>
+										<div class="col">
+											<a href="#">
+											<div class="card h-100">
+												<img src="img/cartolina-satirica4.png" class="card-img-top h-100" alt="Testa di Kaiser, cartoline postali-V4, 1914-1918" />
+												<div class="card-body">
+													<h5 class="card-title">Testa di Kaiser. L’amico ed il custode della pace</h5>
+													<h6 class="card-subtitle">Cartoline postali satiriche e di propaganda</h6>
+													<p class="card-text">Autore: <strong>Rico</strong><br>Segnatura: <strong>CDR.CARTOLINE-V4</strong><br>Collezione: <strong>Archivio Formiggini / Casa del ridere</strong><br>Ente di appartenenza: <strong>Biblioteca Estense Universitaria</strong><br>Datazione: <strong>1914-1918</strong></p>			
+												</div>
+											</div></a>
+										</div>
+										<div class="col">
+											<a href="#">
+											<div class="card h-100">
+												<img src="img/cartolina-satirica3.png" class="card-img-top h-100" alt="L'occupazione della Vall'Inferno, cartoline postali-V3, 1915" />
+												<div class="card-body">
+													<h5 class="card-title">L'occupazione della... Vall'Inferno. L'occupation de la Vallée... d'enfer</h5>
+													<h6 class="card-subtitle">Cartoline postali satiriche e di propaganda</h6>
+													<p class="card-text">Autore: <strong>Turelli, F.</strong><br>Segnatura: <strong>CDR.CARTOLINE-V3</strong><br>Collezione: <strong>Archivio Formiggini / Casa del ridere</strong><br>Ente di appartenenza: <strong>Biblioteca Estense Universitaria</strong><br>Datazione: <strong>1915</strong></p>			
+												</div>
+											</div></a>
+										</div>														
+										<div class="col">
+											<a href="#">
+											<div class="card h-100">
+												<img src="img/cartolina-satirica5.png" class="card-img-top h-100" alt="La storia al lavoro, cartoline postali-V5, 1916" />
+												<div class="card-body">
+													<h5 class="card-title">La storia al lavoro</h5>
+													<h6 class="card-subtitle">Cartoline postali satiriche e di propaganda</h6>
+													<p class="card-text">Segnatura: <strong>CDR.CARTOLINE-V5</strong><br>Collezione: <strong>Archivio Formiggini / Casa del ridere</strong><br>Ente di appartenenza: <strong>Biblioteca Estense Universitaria</strong><br>Datazione: <strong>1916</strong></p>			
+												</div>
+											</div></a>
+										</div>	
+										<div class="col">
+											<a href="#">
+											<div class="card h-100">
+												<img src="img/periodico.jpg" class="card-img-top h-100" alt="L'Italia che scrive, 1919" />
+												<div class="card-body">
+													<h5 class="card-title">L'Italia che scrive</h5>
+													<h6 class="card-subtitle">Rassegna per coloro che leggono</h6>
+													<p class="card-text">Pubblicazione: <strong>Roma : A.F. Formiggini, 1918-1978</strong><br>Numerazione: <strong>unico</strong><br>Ente di appartenenza: <strong>Biblioteca nazionale centrale di Roma</strong><br>Datazione: <strong>1919</strong></p>		
+												</div>
+											</div></a>
+										</div>	
+										<div class="col">
+											<a href="#">
+											<div class="card h-100">
+												<img src="img/periodico2.jpg" class="card-img-top h-100" alt="L'Italia che scrive, 1920" />
+												<div class="card-body">
+													<h5 class="card-title">L'Italia che scrive</h5>
+													<h6 class="card-subtitle">Rassegna per coloro che leggono</h6>
+													<p class="card-text">Pubblicazione: <strong>Roma : A.F. Formiggini, 1918-1978</strong><br>Numerazione: <strong>unico</strong><br>Ente di appartenenza: <strong>Biblioteca nazionale centrale di Roma</strong><br>Datazione: <strong>1920</strong></p>		
+												</div>
+											</div></a>
+										</div>	
+										<div class="col">
+											<a href="#">
+											<div class="card h-100">
+												<img src="img/periodico3.jpg" class="card-img-top h-100" alt="L'Italia che scrive, 1921" />
+												<div class="card-body">
+													<h5 class="card-title">L'Italia che scrive</h5>
+													<h6 class="card-subtitle">Rassegna per coloro che leggono</h6>
+													<p class="card-text">Pubblicazione: <strong>Roma : A.F. Formiggini, 1918-1978</strong><br>Numerazione: <strong>unico</strong><br>Ente di appartenenza: <strong>Biblioteca nazionale centrale di Roma</strong><br>Datazione: <strong>1921</strong></p>		
+												</div>
+											</div></a>
+										</div>
+										<div class="col">
+											<a href="item.html">
+											<div class="card h-100">
+												<img src="img/la-ficozza.jpg" class="card-img-top h-100" alt="La Ficozza filosofica del Fascismo, 1923" />
+												<div class="card-body">
+													<h5 class="card-title">La Ficozza Filosofica del Fascismo e la Marcia sulla Leonardo </h5>
+													<h6 class="card-subtitle">Libro edificante e sollazzevole</h6>
+													<p class="card-text">Autore principale: <strong>Formiggini, Angelo Fortunato </strong><br>Pubblicazione: <strong>Roma : A.F. Formiggini</strong><br>Ente di appartenenza: <strong>The University of Michigan Library</strong><br>Datazione: <strong>1923</strong></p>			
+												</div>
+											</div></a>
+										</div>									
+										<div class="col">
+											<a href="#">
+											<div class="card h-100">
+												<img src="img/dizionario.jpg" class="card-img-top h-100" alt="Chi è?, 1928" />
+												<div class="card-body">
+													<h5 class="card-title">Chi è?</h5>
+													<h6 class="card-subtitle">Dizionario degli Italiani d'oggi</h6>
+													<p class="card-text">Pubblicazione: <strong>Roma : A.F. Formiggini, 1928-1936</strong><br>Ente di appartenenza: <strong>The University of Michigan Library</strong><br>Datazione: <strong>1928</strong></p>
+												</div>
+											</div></a>
+										</div>
+										<div class="col">
+											<a href="#">
+											<div class="card h-100">
+												<img src="img/dizionarietto.jpg" class="card-img-top h-100" alt="Dizionarietto rompitascabile, 1928" />
+												<div class="card-body">
+													<h5 class="card-title">Dizionarietto rompistacabile</h5>
+													<h6 class="card-subtitle">degli Editori Italiani, compilato da uno dei suddetti. Seconda edizione con nuovi errori ed aggiunte e con una appendice egocentrice</h6>
+													<p class="card-text">Autore principale: <strong>Formiggini, Angelo Fortunato </strong><br>Pubblicazione: <strong>Roma : A.F. Formiggini</strong><br>Ente di appartenenza: <strong>The University of California Library</strong><br>Datazione: <strong>1928</strong></p>	
+												</div>
+											</div></a>
+										</div>
+										<div class="col">
+											<a href="#">
+											<div class="card h-100">
+												<img src="img/lettera2.png" class="card-img-top h-100" alt="Lettere di BENCIVENGA_TOMASO, 1929-1932" />
+												<div class="card-body">
+													<h5 class="card-title">AEF.BENCIVENGA_TOMASO</h5>
+													<p class="card-text">Segnatura: <strong>AEF.BENCIVENGA_TOMASO</strong><br>Collezione: <strong>Archivio Formiggini / Lettere e carteggi</strong><br>Consistenza: <strong>4 carte</strong><br>Ente di appartenenza: <strong>Biblioteca Estense Universitaria</strong><br>Datazione: <strong>1929-1932</strong></p>
+												</div>
+											</div></a>
+										</div> 	
+									</div>			
+								</div>
+								<!--Categoria: libro-->
+								<div id="Libro" class="city">
+									<div class="row">						
+										<div class="col">
+											<a href="#">
+											<div class="card h-100">
+												<img src="img/la-secchia.jpg" class="card-img-top h-100" alt="La Secchia, 1908" />
+												<div class="card-body">
+													<h5 class="card-title">La Secchia</h5>
+													<h6 class="card-subtitle">contiene sonetti burleschi inediti del Tassone e molte invenzioni piacevoli e curiose, vagamente illustrate, edite per la famosa festa mutino-bononiense del 31 Maggio mcmviii / prefazione di Olindo Guerrini</h6>
+													<p class="card-text">Pubblicazione: <strong>Bologna ; Modena : A.F. Formiggini</strong><br>Ente di appartenenza: <strong>The Robarts Library - University of Toronto</strong><br>Datazione: <strong>1908</strong></p>	
+												</div>
+											</div></a>
+										</div>	
+										<div class="col">
+											<a href="#">
+											<div class="card h-100">
+												<img src="img/tassoni.jpg" class="card-img-top h-100" alt="Miscellanea tassoniana, 1908" />
+												<div class="card-body">
+													<h5 class="card-title">Miscellanea tassoniana di studi storici e letterari</h5>
+													<h6 class="card-subtitle">pubblicata nella festa della fossalta, 28 giugno 1908 / a cura di Tommaso Casini e di Vinceslao Santi ; con prefazione di Giovanni Pascoli</h6>
+													<p class="card-text">Pubblicazione: <strong>Bologna ; Modena : A.F. Formiggini</strong><br>Ente di appartenenza: <strong>The Robarts Library - University of Toronto</strong><br>Datazione: <strong>1908</strong></p>		
+												</div>
+											</div></a>
+										</div>
+										<div class="col">
+											<a href="item.html">
+											<div class="card h-100">
+												<img src="img/la-ficozza.jpg" class="card-img-top h-100" alt="La Ficozza Filosofica del Fascismo, 1923" />
+												<div class="card-body">
+													<h5 class="card-title">La Ficozza Filosofica del Fascismo e la Marcia sulla Leonardo </h5>
+													<h6 class="card-subtitle">Libro edificante e sollazzevole</h6>
+													<p class="card-text">Autore principale: <strong>Formiggini, Angelo Fortunato </strong><br>Pubblicazione: <strong>Roma : A.F. Formiggini</strong><br>Ente di appartenenza: <strong>The University of Michigan Library</strong><br>Datazione: <strong>1923</strong></p>			
+												</div>
+											</div></a>
+										</div>
+										<div class="col">
+											<a href="#">
+											<div class="card h-100">
+												<img src="img/dizionarietto.jpg" class="card-img-top h-100" alt="Dizionarietto rompistacabile, 1928" />
+												<div class="card-body">
+													<h5 class="card-title">Dizionarietto rompistacabile</h5>
+													<h6 class="card-subtitle">degli Editori Italiani, compilato da uno dei suddetti. Seconda edizione con nuovi errori ed aggiunte e con una appendice egocentrice</h6>
+													<p class="card-text">Autore principale: <strong>Formiggini, Angelo Fortunato </strong><br>Pubblicazione: <strong>Roma : A.F. Formiggini</strong><br>Ente di appartenenza: <strong>The University of California Library</strong><br>Datazione: <strong>1928</strong></p>	
+												</div>
+											</div></a>
+										</div>
+									</div>	
+								</div>
+								<!--Categoria: rivista / periodico-->
+								<div id="Rivista / periodico" class="city">
+									<div class="row">
+										<div class="col">
+											<a href="#">
+											<div class="card h-100">
+												<img src="img/periodico.jpg" class="card-img-top h-100" alt="L'Italia che scrive, 1919" />
+												<div class="card-body">
+													<h5 class="card-title">L'Italia che scrive</h5>
+													<h6 class="card-subtitle">Rassegna per coloro che leggono</h6>
+													<p class="card-text">Pubblicazione: <strong>Roma : A.F. Formiggini, 1918-1978</strong><br>Numerazione: <strong>unico</strong><br>Ente di appartenenza: <strong>Biblioteca nazionale centrale di Roma</strong><br>Datazione: <strong>1919</strong></p>		
+												</div>
+											</div></a>
+										</div>	
+										<div class="col">
+											<a href="#">
+											<div class="card h-100">
+												<img src="img/periodico2.jpg" class="card-img-top h-100" alt="L'Italia che scrive, 1920" />
+												<div class="card-body">
+													<h5 class="card-title">L'Italia che scrive</h5>
+													<h6 class="card-subtitle">Rassegna per coloro che leggono</h6>
+													<p class="card-text">Pubblicazione: <strong>Roma : A.F. Formiggini, 1918-1978</strong><br>Numerazione: <strong>unico</strong><br>Ente di appartenenza: <strong>Biblioteca nazionale centrale di Roma</strong><br>Datazione: <strong>1920</strong></p>		
+												</div>
+											</div></a>
+										</div>	
+										<div class="col">
+											<a href="#">
+											<div class="card h-100">
+												<img src="img/periodico3.jpg" class="card-img-top h-100" alt="L'Italia che scrive, 1921" />
+												<div class="card-body">
+													<h5 class="card-title">L'Italia che scrive</h5>
+													<h6 class="card-subtitle">Rassegna per coloro che leggono</h6>
+													<p class="card-text">Pubblicazione: <strong>Roma : A.F. Formiggini, 1918-1978</strong><br>Numerazione: <strong>unico</strong><br>Ente di appartenenza: <strong>Biblioteca nazionale centrale di Roma</strong><br>Datazione: <strong>1921</strong></p>		
+												</div>
+											</div></a>
+										</div>
+										<div class="col">
+											<a href="#">
+											<div class="card h-100">
+												<img src="img/dizionario.jpg" class="card-img-top h-100" alt="Chi è?, 1928" />
+												<div class="card-body">
+													<h5 class="card-title">Chi è?</h5>
+													<h6 class="card-subtitle">Dizionario degli Italiani d'oggi</h6>
+													<p class="card-text">Pubblicazione: <strong>Roma : A.F. Formiggini, 1928-1936</strong><br>Ente di appartenenza: <strong>The University of Michigan Library</strong><br>Datazione: <strong>1928</strong></p>
+												</div>
+											</div></a>
+										</div>		
+									</div>
+								</div>	
+								<!--Categoria: lettera e carteggio-->
+								<div id="Lettera e carteggio" class="city">
+									<div class="row">
+										<div class="col">
+											<a href="#">
+											<div class="card h-100">
+												<img src="img/lettera.jpg" class="card-img-top h-100" alt="Lettere di A.F.Formiggini, 1908-1935" />
+												<div class="card-body">
+													<h5 class="card-title">Lettere di Formiggini, Angelo Fortunato</h5>
+													<p class="card-text">Segnatura: <strong>AEF.FORMIGGINI</strong><br>Collezione: <strong>Archivio Formiggini / Lettere e carteggi</strong><br>Consistenza: <strong>0</strong><br>Ente di appartenenza: <strong>Biblioteca Estense Universitaria</strong><br>Datazione: <strong>1908-1935</strong></p>				
+												</div>
+											</div></a>
+										</div>
+										<div class="col">
+											<a href="#">
+											<div class="card h-100">
+												<img src="img/lettera2.png" class="card-img-top h-100" alt="Lettere di BENCIVENGA_TOMASO, 1929-1932" />
+												<div class="card-body">
+													<h5 class="card-title">AEF.BENCIVENGA_TOMASO</h5>
+													<p class="card-text">Segnatura: <strong>AEF.BENCIVENGA_TOMASO</strong><br>Collezione: <strong>Archivio Formiggini / Lettere e carteggi</strong><br>Consistenza: <strong>4 carte</strong><br>Ente di appartenenza: <strong>Biblioteca Estense Universitaria</strong><br>Datazione: <strong>1929-1932</strong></p>
+												</div>
+											</div></a>
+										</div> 										
+									</div>
+								</div>	
+								<!--Categoria: cartolina-->
+								<div id="Cartolina" class="city">
+									<div class="row">
+										<div class="col">
+											<a href="#">
+											<div class="card h-100">
+												<img src="img/cartolina-satirica.png" class="card-img-top h-100" alt="Atletica, cartoline postali-V1, 1914-1915" />
+												<div class="card-body">
+													<h5 class="card-title">Atletica</h5>
+													<h6 class="card-subtitle">Cartoline postali satiriche e di propaganda</h6>
+													<p class="card-text">Autore: <strong>Benedetti, E.</strong><br>Segnatura: <strong>CDR.CARTOLINE-V1</strong><br>Collezione: <strong>Archivio Formiggini / Casa del ridere</strong><br>Consistenza: <strong>0</strong><br>Ente di appartenenza: <strong>Biblioteca Estense Universitaria</strong><br>Datazione: <strong>1914-1915</strong></p>			
+												</div>
+											</div></a>
+										</div>	
+										<div class="col">
+											<a href="#">
+											<div class="card h-100">
+												<img src="img/cartolina-satirica2.png" class="card-img-top h-100" alt="L'Ingordo, cartoline postali-V2, 1914-1918" />
+												<div class="card-body">
+													<h5 class="card-title">L'Ingordo / Golia</h5>
+													<h6 class="card-subtitle">Cartoline postali satiriche e di propaganda</h6>
+													<p class="card-text">Autore: <strong>Colmo, Eugenio</strong><br>Segnatura: <strong>CDR.CARTOLINE-V2</strong><br>Collezione: <strong>Archivio Formiggini / Casa del ridere</strong><br>Ente di appartenenza: <strong>Biblioteca Estense Universitaria</strong><br>Datazione: <strong>1914-1918</strong></p>			
+												</div>
+											</div></a>
+										</div>
+										<div class="col">
+											<a href="#">
+											<div class="card h-100">
+												<img src="img/cartolina-satirica4.png" class="card-img-top h-100" alt="Testa di Kaiser, cartoline postali-V4, 1914-1918" />
+												<div class="card-body">
+													<h5 class="card-title">Testa di Kaiser. L’amico ed il custode della pace</h5>
+													<h6 class="card-subtitle">Cartoline postali satiriche e di propaganda</h6>
+													<p class="card-text">Autore: <strong>Rico</strong><br>Segnatura: <strong>CDR.CARTOLINE-V4</strong><br>Collezione: <strong>Archivio Formiggini / Casa del ridere</strong><br>Ente di appartenenza: <strong>Biblioteca Estense Universitaria</strong><br>Datazione: <strong>1914-1918</strong></p>	
+												</div>
+											</div></a>
+										</div>	
+										<div class="col">
+											<a href="#">
+											<div class="card h-100">
+												<img src="img/cartolina-satirica3.png" class="card-img-top h-100" alt="L'occupazione della Vall'Inferno, cartoline postali-V3, 1915" />
+												<div class="card-body">
+													<h5 class="card-title">L'occupazione della... Vall'Inferno. L'occupation de la Vallée... d'enfer</h5>
+													<h6 class="card-subtitle">Cartoline postali satiriche e di propaganda</h6>
+													<p class="card-text">Autore: <strong>Turelli, F.</strong><br>Segnatura: <strong>CDR.CARTOLINE-V3</strong><br>Collezione: <strong>Archivio Formiggini / Casa del ridere</strong><br>Ente di appartenenza: <strong>Biblioteca Estense Universitaria</strong><br>Datazione: <strong>1915</strong></p>			
+												</div>
+											</div></a>
+										</div>									
+										<div class="col">
+											<a href="#">
+											<div class="card h-100">
+												<img src="img/cartolina-satirica5.png" class="card-img-top h-100" alt="La storia al lavoro, cartoline postali-V5, 1916" />
+												<div class="card-body">
+													<h5 class="card-title">La storia al lavoro</h5>
+													<h6 class="card-subtitle">Cartoline postali satiriche e di propaganda</h6>
+													<p class="card-text">Segnatura: <strong>CDR.CARTOLINE-V5</strong><br>Collezione: <strong>Archivio Formiggini / Casa del ridere</strong><br>Ente di appartenenza: <strong>Biblioteca Estense Universitaria</strong><br>Datazione: <strong>1916</strong></p>			
+												</div>
+											</div></a>
+										</div>	
+									</div>
+								</div>	
+								<!--Categoria: stampa-->		
+								<div id="Stampa" class="city">
+									<div class="row">
+										<div class="col">
+											<a href="#">
+											<div class="card h-100">
+												<img src="img/stampa.jpg" class="card-img-top h-100" alt="Novella prima, illustrazione, 1914-1915" />
+												<div class="card-body">
+													<h5 class="card-title">Novella prima: Gianni Lotteringhi e la moglie. Illustrazione per "Decamerone. Dioneo: giornata settima"</h5>
+													<p class="card-text">Attribuzioni: <strong>Moroni, Antonello</strong><br>Materia e tecnica: <strong>carta / xilografia</strong><br>Luogo di conservazione: <strong>Palazzo Romagnoli. Collezioni del Novecento</strong><br>Datazione: <strong>1914-1915</strong>
+													</p>									
+												</div>
+											</div></a>
+										</div>
+										<div class="col">
+											<a href="#">
+											<div class="card h-100">
+												<img src="img/stampa4.jpg" class="card-img-top h-100" alt="Novella quarta, illustrazione, 1914-1915" />
+												<div class="card-body">
+													<h5 class="card-title">Novella quarta: Lauretta. Illustrazione per "Decamerone. Dioneo: giornata settima"</h5>
+													<p class="card-text">Attribuzioni: <strong>Moroni, Antonello</strong><br>Materia e tecnica: <strong>carta / xilografia</strong><br>Luogo di conservazione: <strong>Palazzo Romagnoli. Collezioni del Novecento</strong><br>Datazione: <strong>1914-1915</strong>
+													</p>									
+												</div>
+											</div></a>
+										</div>	
+										<div class="col">
+											<a href="#">
+											<div class="card h-100">
+												<img src="img/stampa5.jpg" class="card-img-top h-100" alt="Novella quinta, illustrazione, 1914-1915" />
+												<div class="card-body">
+													<h5 class="card-title">Novella quinta: il geloso. Illustrazione per "Decamerone. Dioneo: giornata settima"</h5>
+													<p class="card-text">Attribuzioni: <strong>Moroni, Antonello</strong><br>Materia e tecnica: <strong>carta / xilografia</strong><br>Luogo di conservazione: <strong>Palazzo Romagnoli. Collezioni del Novecento</strong><br>Datazione: <strong>1914-1915</strong>
+													</p>									
+												</div>
+											</div></a>
+										</div>
+										<div class="col">
+											<a href="#">
+											<div class="card h-100">
+												<img src="img/stampa6.jpg" class="card-img-top h-100" alt="Novella sesta, illustrazione, 1914-1915" />
+												<div class="card-body">
+													<h5 class="card-title">Novella sesta: Madonna Isabella e Leonetto. Illustrazione per "Decamerone. Dioneo: giornata settima"</h5>
+													<p class="card-text">Attribuzioni: <strong>Moroni, Antonello</strong><br>Materia e tecnica: <strong>carta / xilografia</strong><br>Luogo di conservazione: <strong>Palazzo Romagnoli. Collezioni del Novecento</strong><br>Datazione: <strong>1914-1915</strong>
+													</p>									
+												</div>
+											</div></a>
+										</div>
+										<div class="col">
+											<a href="#">
+											<div class="card h-100">
+												<img src="img/stampa7.jpg" class="card-img-top h-100" alt="Novella settima, illustrazione, 1914-1915" />
+												<div class="card-body">
+													<h5 class="card-title">Novella settima: Ludovico ed Egàno. Illustrazione per "Decamerone. Dioneo: giornata settima"</h5>
+													<p class="card-text">Attribuzioni: <strong>Moroni, Antonello</strong><br>Materia e tecnica: <strong>carta / xilografia</strong><br>Luogo di conservazione: <strong>Palazzo Romagnoli. Collezioni del Novecento</strong><br>Datazione: <strong>1914-1915</strong>
+													</p>									
+												</div>
+											</div></a>
+										</div>
+										<div class="col">
+											<a href="#">
+											<div class="card h-100">
+												<img src="img/stampa8.jpg" class="card-img-top h-100" alt="Novella ottava, illustrazione, 1914-1915" />
+												<div class="card-body">
+													<h5 class="card-title">Novella ottava: Neifile. Illustrazioni per "Decamerone. Dioneo: giornata settima"</h5>
+													<p class="card-text">Attribuzioni: <strong>Moroni, Antonello</strong><br>Materia e tecnica: <strong>carta / xilografia</strong><br>Luogo di conservazione: <strong>Palazzo Romagnoli. Collezioni del Novecento</strong><br>Datazione: <strong>1914-1915</strong>
+													</p>									
+												</div>
+											</div></a>
+										</div>	
+									</div>
+								</div>
+							</div>
+						</div>
+						<!--Pagination Bs-->
+						<nav aria-label="Page navigation example">
+						  <ul class="pagination pagination-sm justify-content-center" style="background-color: #a5b497;">
+						    <li class="page-item">
+						      <a class="page-link" href="#" aria-label="Previous">
+						        <span aria-hidden="true">&laquo;</span>
+						      </a>
+						    </li>
+						    <li class="page-item"><a class="page-link" href="#">1</a></li>
+						    <li class="page-item"><a class="page-link" href="#">2</a></li>
+						    <li class="page-item"><a class="page-link" href="#">3</a></li>
+						    <li class="page-item">
+						      <a class="page-link" href="#" aria-label="Next">
+						        <span aria-hidden="true">&raquo;</span>
+						      </a>
+						    </li>
+						  </ul>
+						</nav>						
+					</div> <!--Rightcolumn-->
+				</div> <!--Row con left e right col-->
+		</section>
+		<!--Elemento section per crediti e licenze-->
+		<section>
+			<div class="descrizione-crediti">
+				<div><a href="#" class="testo-crediti">Credits</a> | <a href="#" class="testo-crediti">Licenze</a></div>
+			</div>
+		</section>
+		<!-- Elemento footer per il piede di pagina -->
+		<footer>
+			<div class="testo-footer">
+				<h6>&copy; Copyright Giulia Varriale, 2023 - Corso di Digital Humanities e Patrimonio Culturale</h6>
+			</div>
+		</footer>
+
+		<!--Bootstrap Js-->
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous">
+		</script>
+	 	
+	 	<!--Accordion Js-->
+	 	<script>
+		var acc = document.getElementsByClassName("accordion");
+		var i;
+
+		for (i = 0; i < acc.length; i++) {
+		  acc[i].addEventListener("click", function() {
+		    this.classList.toggle("active");
+		    var panel = this.nextElementSibling;
+		    if (panel.style.maxHeight) {
+		      panel.style.maxHeight = null;
+		    } else {
+		      panel.style.maxHeight = panel.scrollHeight + "px";
+		    } 
+		  });
+		}		
+		</script>
+
+		<!--Script per le nav-tabs con le varie cards-->
+		<script>
+		function openCity(evt, cityName) {
+		  var i;
+		  var x = document.getElementsByClassName("city");
+		  for (i = 0; i < x.length; i++) {
+		    x[i].style.display = "none";  
+		  }
+		  document.getElementById(cityName).style.display = "block"; 
+
+		}
+		// Get the element with id="defaultOpen" and click on it
+		document.getElementById("defaultOpen").click();
+
+		</script>
+		
+	</body>
+</html>

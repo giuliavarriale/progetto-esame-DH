@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xmlns:dc="http://purl.org/dc/elements/1.1/"
+xmlns:dcterms="http://purl.org/dc/terms/">		
+	<dc:title>La ficozza filosofica del fascismo e la marcia sulla Leonardo; libro edificante e sollazzevole.</dc:title>
+	<dcterms:alternative>La ficozza filosofica del fascismo.</dcterms:alternative>
+	<dc:creator>Formiggini, Angelo Fortunato</dc:creator>
+	<!--Riferimento a record di autorità Wikidata-->
+	<dc:creator xsi:type="dcterms:URI">https://www.wikidata.org/wiki/Q535961</dc:creator>
+	<dc:publisher>HathiTrust</dc:publisher>
+	<!--Data di creazione risorsa analogica-->
+	<dcterms:created>1923</dcterms:created>
+	<!--Data di digitalizzazione-->
+	<dcterms:available>2005-11-18</dcterms:available>
+	<!--Data ultima modifica risorsa digitale-->
+	<dcterms:modified>2022-07-27 23:13 UTC</dcterms:modified>				
+	<dc:subject>Fascism</dc:subject>
+	<dc:subject>Editoria - Italia - 1918-1923 - Diari e memorie</dc:subject>
+	<dc:subject>075 (20.) GIORNALI E GIORNALISMO IN ITALIA E IN ALCUNI TERRITORI LIMITROFI</dc:subject>	
+	<!--Riferimento a record di autorità LCSH-->
+	<dc:subject xsi:type="dcterms:LCSH">https://lccn.loc.gov/sh85047355</dc:subject>
+	<!--Riferimento a record di autorità DDC-->
+	<dc:subject xsi:type="dcterms:DDC">075 (20.)</dc:subject>	
+	<dc:type>Text</dc:type>
+	<dc:format xsi:type="dcterms:IMT">text/PDF/JPEG/TIFF</dc:format>
+	<!--Codice identificativo risorsa digitale HathiTrust-->
+	<dc:identifier>mdp.39015058519961</dc:identifier>
+	<dc:language>It</dc:language>
+	<!--Collocazione spaziale risorsa-->
+	<dc:coverage>The University of Michigan Library</dc:coverage>
+	<!--Riferimento a record di autorità Geonames-->
+	<dc:coverage xsi:type="dcterms:URI">https://www.geonames.org/8085810/michigan-state-university-library.html</dc:coverage>
+	<!--Call name risorsa analogica-->
+	<dc:coverage>DG571 .F725</dc:coverage>	
+	<!--APA citation (American Psychological Association) e permalink risorsa digitale-->
+	<dc:source>Formiggini, A. Fortunato. (1923). La ficozza filosofica del fascismo e la marcia sulla Leonardo: libro edificante e sollazzevole. Roma: A. F. Formiggini, http://hdl.handle.net/2027/mdp.39015058519961</dc:source>
+	<dc:rights>Public Domain, Google-digitized.</dc:rights>
+	<dc:rights>https://www.hathitrust.org/the-collection/search-access/access-use-policy/#pd-google</dc:rights>			
+</metadata>

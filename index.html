@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="it">
+	<head>
+		<title>Angelo Fortunato Formiggini: filosofo del Ridere</title>
+		<!--Favicon-->
+		<link rel="icon" type="image/x-icon" href="img/favicon.ico">
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<!--Bootstrap CSS-->
+		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+		<!-- CSS -->
+		<link rel="stylesheet" href="style/stile-index.css">
+		<!-- Font Google -->
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Noto+Sans">
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oswald">
+		<!--Metadatazione DC-->
+		<META NAME="DC.Title" CONTENT="Angelo Fortunato Formiggini: filosofo del Ridere">
+		<META NAME="DC.Creator" CONTENT="Giulia Varriale">
+		<META NAME="DC.Subject" CONTENT="Formiggini, editoria, fascismo, opere, politica">
+		<META NAME="DC.Description" CONTENT="Sito creato per l'esame di Digital Humanities">
+		<META NAME="DC.Publisher" CONTENT="Università di Bologna">
+		<META NAME="DC.Date" CONTENT="2023">
+		<META NAME="DC.Type" CONTENT="Sito web">
+		<META NAME="DC.Format" CONTENT="HTML">
+		<!-- Inserire URI appena carichi sito su Github-->
+		<META NAME="DC.Identifier" CONTENT="TBD una volta che sia pubblicato">		
+		<META NAME="DC.Language" CONTENT="It">		
+		<META NAME="DC.Rights" CONTENT="Accesso libero creative commons">
+	</head>
+	<body>
+		<!-- Elemento header per la testata di pagina -->
+		<header>
+			<div class="testata">
+				<!--Attributo Bootstrap "rounded-circle" per avere il logo della testata con bordi circolari-->
+				<img class="logo-testata rounded-circle" src="img/casa-del-ridere.jpg"  alt="Logo della raccolta Casa del Ridere" title="Logo della raccolta Casa del Ridere" />
+				<h1 class= "testo-testata">Angelo Fortunato Formiggini: filosofo del ridere</h1>
+			</div>
+		</header>
+		<!-- Elemento nav per il menù di navigazione -->
+		<nav class="testo-nav">
+			<div><a href="#" class="pagina-attiva">Home</a> | <a href="#progetto" title="Introduzione al progetto">Introduzione</a> | <a href="#" title="Biografia di Angelo Fortunato Formiggini">Biografia</a> | <a href="items-list.html" title="Opere digitalizzate">Opere</a>
+			</div>
+		</nav> 
+		<!-- Elemento section per il Carousel -->
+		<section>	
+			<!--Carousel Bootstrap-->
+			<div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+			  <div class="carousel-indicators">
+			    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+			    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+			    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+			  </div>
+			  <div class="carousel-inner">
+			    <div class="carousel-item active">
+			      <img src="img/foto+firma2.jpg" class="d-block w-100" alt="Fotografia di Formiggini" />
+			      <div class="carousel-caption d-none d-md-block">
+			        <h5 class="carousel">Angelo Fortunato Formiggini</h5>
+			        <p class="carousel">Scopri di più sulla <a class="bio" href="#"><strong>BIOGRAFIA</strong></a> del filosofo, editore, scrittore, interventista, nonché uomo brillante che sfidò Giovanni Gentile</p>
+			      </div>
+			    </div>
+			    <div class="carousel-item">
+			      <img src="img/foto+firma3.jpg" class="d-block w-100" alt="Foto di frase iconica e firma di Formiggini" />
+			      <div class="carousel-caption d-none d-md-block">
+			        <h5 class="carousel">Esplorazione con linea del tempo</h5>
+			        <p class="carousel">Scopri le opere afferenti alla <em>Casa editrice A.F. Formiggini</em> e ripercorri la storia dell'<em>Archivio Formiggini</em> attraverso una <a class="linea-tempo" href="#linea-tempo"><strong>LINEA DEL TEMPO</strong></a></p>			       
+			      </div>
+			    </div>
+			    <div class="carousel-item">
+			      <img src="img/cartolina-parlante.jpg" class="d-block w-100" alt="Serie delle cartoline postali di Formiggini" />
+			      <div class="carousel-caption d-none d-md-block">
+			        <h5 class="carousel">Esplorazione per temi</h5>
+			        <p class="carousel">Scopri le opere afferenti alla <em>Casa editrice A.F. Formiggini</em> e all'<em>Archivio Formiggini</em> attraverso un'esplorazione per <a class="temi" href="#temi"><strong>TEMI</strong></a></p>
+			      </div>
+			    </div>
+			  </div>
+			  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+			    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+			    <span class="visually-hidden">Previous</span>
+			  </button>
+			  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+			    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+			    <span class="visually-hidden">Next</span>
+			  </button>
+			</div>
+		</section>				
+		<!-- Elemento section per la presentazione del progetto-->
+		<section>
+			<!-- Bookmark con ID e link collegato all'introduzione in navbar-->
+			<div class="progetto" id="progetto">
+				<div class="testo-progetto">
+					<h3>Il progetto</h3>
+					<p><strong><em>Angelo Fortunato Formiggini: filosofo del ridere</em></strong> è un progetto realizzato per l'esame del corso di <a href="https://www.unibo.it/it/didattica/insegnamenti/insegnamento/2022/444725" class="DH" target="blank" title="Apre il sito del corso di DH dell'Università di Bologna in una nuova finestra">Digital Humanities e Patrimonio Culturale</a> dell'Università di Bologna.</p>
+					<p>Poiché spesso non troppo conosciuto, tale progetto ambisce a ricordare un personaggio cardine dell'editoria italiana del Novecento, non solo dal punto di vista della ricca produzione editoriale, ma anche da quello del rapporto tra regime ed enti culturali.</p>
+					<p>Ripercorrendo e dividendo per tipologie, date e temi le opere afferenti alla Casa editrice A.F. Formiggini e oggi accessibili in testo pieno sul web, da un lato si vuole porre l'attenzione sull'eterogeneità della produzione e degli interessi cari a Formiggini ma, soprattutto, sullo <strong>scontro acceso tra l'editore ebreo e Giovanni Gentile</strong>, allora Ministro della Pubblica Istruzione: tra le idee e iniziative sottratte all'editore con una libertà che solo il regime fascista poteva concedersi, fu eclatante il furto intellettuale dell'idea di creare una <em>Grande Enciclopedia italica</em>, il cui progetto fu poi affidato proprio dal ministro Gentile a Giovanni Treccani, concretizzatosi nella celeberrima <strong>Enciclopedia Treccani.</strong></p>
+					<p> Da questo scontro, nacque un testo di protesta molto articolato, <em>"La ficozza filosofica del fascismo e la marcia sulla Leonardo"</em>, nel quale Gentile veniva definito come un bernoccolo spuntato in testa al fascismo.</p>
+					<p>L'ingiustizia vissuta da Formiggini e la conseguente volontà di <strong>denuncia</strong> furono il <em>leitmotiv</em> dell'ultima parte della sua vita, fino a quando non furono emanate le leggi razziali e l'estromissione sociale fu tale da far compiere all'editore un gesto di estrema protesta: il <strong>suicidio</strong> dalla torre della Ghirlandina di Modena.</p>
+				</div>
+			</div>
+		</section>
+		<!--Timeline JS di KnightLab-->
+		<section id="linea-tempo">
+			<iframe src='https://cdn.knightlab.com/libs/timeline3/latest/embed/index.html?source=1cLCisUdqUs0OHgvTSOYmfhr1irEHg3dfq-pKckU6U2o&font=UnicaOne-Vollkorn&lang=it&initial_zoom=2&height=650' width='100%' height='460' webkitallowfullscreen mozallowfullscreen allowfullscreen frameborder='0'></iframe>
+		</section>
+		<!-- Elemento section per l'esplorazione dei temi-->
+		<section>
+			<div class="esplorazione" id="temi">
+				<div class="testo-esplorazione">
+					<h2>Vuoi esplorare le risorse per temi?</h2>
+					<p class="sottotesto-esplorazione">Scopri la documentazione in modi nuovi e innovativi</p>
+				</div>
+				<!--Container con CARD all'interno di ogni col, per gestirle sulla stessa riga-->
+				<div class="container">	
+					<!--Utilily overflow di Bootstrap, con display:flex, per avere una scrollbar orizzontale-->	<div class="overflow-auto">	
+						<div class="col">
+							<!--Link inserito fuori dalla card per avere l'intera card cliccabile, che rimanda potenzialmente alla pagina di item relativi a ciascun tema-->
+							<a href="#"><div class="card h-100">		
+								<img class="card-img h-100" src="img/la-secchia.jpg" alt="'La Secchia': sonetti del Tassoni e molte invenzioni piacevoli e curiose, 1908" />
+									<div class="card-content">
+										<h4>La secchia rapita</h4>
+										<p><span class="border">Esplora</span></p>	
+									</div>
+							</div></a>
+						</div>	
+						<div class="col">
+							<a href="#"><div class="card h-100">		
+								<img class="card-img h-100" src="img/tassoni.jpg" alt="Miscellanea tassoniana di studi storici e letterari, 1908" />
+									<div class="card-content">
+										<h4>Saggistica sul <br>Tassoni</h4>
+										<p><span class="border">Esplora</span></p>	
+									</div>
+							</div></a>
+						</div>
+						<div class="col">
+							<a href="#"><div class="card h-100">		
+								<img class="card-img h-100" src="img/periodico.jpg" alt="La rivista mensile 'L'Italia che scrive', 1919-1946" />
+									<div class="card-content">
+										<h4>Per coloro <br>che leggono</h4>
+										<p><span class="border">Esplora</span></p>	
+									</div>
+							</div></a>
+						</div>
+						<div class="col">
+							<a href="item.html"><div class="card h-100">		
+								<img class="card-img h-100" src="img/la-ficozza.jpg" alt="Foto di Formiggini ne 'La ficozza del fascismo', 1923" />
+									<div class="card-content">
+										<h4>Giovanni Gentile</h4>
+										<p><span class="border">Esplora</span></p>	
+									</div>
+							</div></a>
+						</div>	
+						
+						<div class="col">
+							<a href="#"><div class="card h-100">		
+								<img class="card-img h-100" src="img/cartolina-satirica.png" alt="Cartolina postale satirica e di propaganda, 1914-1915" />
+									<div class="card-content">
+										<h4>La Grande Guerra</h4>
+										<p><span class="border">Esplora</span></p>	
+									</div>
+							</div></a>
+						</div>	
+						<div class="col">
+							<a href="#"><div class="card h-100">		
+								<img class="card-img h-100" src="img/dizionario.jpg" alt="Frontespizio de 'Chi è? Dizionario degli italiani d'oggi', 1928" />
+									<div class="card-content">
+										<h4>Dizionari e <br> Dizionarietti</h4>
+										<p><span class="border">Esplora</span></p>	
+									</div>
+							</div></a>
+						</div>	
+						<div class="col">
+							<a href="#"><div class="card h-100">		
+								<img class="card-img h-100" src="img/lettera.jpg" alt="Lettera del fondo Formiggini, 1908-1935" />
+									<div class="card-content">
+										<h4>Le lettere</h4>
+										<p><span class="border">Esplora</span></p>	
+									</div>
+							</div></a>
+						</div>		
+						<div class="col">
+							<a href="#"><div class="card h-100">		
+								<img class="card-img h-100" src="img/stampa8.jpg" alt="Illustrazione di Antonello Moroni, 1915-1916" />
+									<div class="card-content">
+										<h4>Il solco sottile <br>di Moroni</h4>
+										<p><span class="border">Esplora</span></p>	
+									</div>
+							</div></a>
+						</div>							
+					</div>					
+				</div>
+			</div>
+		</section>
+		<!--Elemento section per crediti e licenze-->
+		<section>
+			<div class="descrizione-crediti">
+				<div><a href="#" class="testo-crediti">Credits</a> | <a href="#" class="testo-crediti">Licenze</a></div>
+			</div>
+		</section>
+		<!-- Elemento footer per il piede di pagina -->
+		<footer>
+			<div class="testo-footer">
+				<h6>Copyright &copy; 2023 Giulia Varriale | Corso di Digital Humanities e Patrimonio Culturale</h6>
+			</div>
+		</footer>
+		<!--Bootstrap Js-->
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+	</body>
+</html>

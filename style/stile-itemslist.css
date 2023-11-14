@@ -1,0 +1,344 @@
+body {
+	margin: auto;
+	font-family: "Noto Sans";
+}
+
+header {
+	background-color: #F4F2DE;
+	text-align: center;
+
+		
+}
+
+
+.testata {
+	/* Proprietà Bootstrap per avere logo e testo sulla stessa riga */
+	display: flex;
+	align-items: center;
+
+
+}
+
+.logo-testata {
+	margin-right: 11%;
+	padding:10px;
+}
+
+
+.testo-testata {
+	color: brown;
+	font-family: Oswald;
+	letter-spacing: 4px;
+	text-transform: uppercase;
+
+	
+}
+
+
+h1 {
+	
+	
+}
+
+h2 {
+	text-align: center;
+	color: #445D48;
+
+}
+
+
+h3 {
+	text-align: left;
+	color: #0E2954;
+	font-family: Oswald;
+	padding-top: 10px;
+	padding-bottom: 20px;
+
+}
+
+
+.testo-nav, .testo-footer {
+	color: antiquewhite;
+	text-align: center;
+	padding: 15px;
+
+	
+
+}
+
+.testo-nav {
+	letter-spacing: 4px;
+	word-spacing: 3px;
+
+}
+
+/* pseudo-elemento WEBKIT-SCROLLBAR per modificare lo stile della scrollbar */
+::-webkit-scrollbar {
+  height: 5px;
+  width: 15px;
+
+}
+
+::-webkit-scrollbar-thumb {
+  background: darkgrey;
+  border-radius: 10px;
+
+ }
+
+::-webkit-scrollbar-thumb:hover {
+  background: #8c8c8c; 
+}
+
+
+.leftcolumn {
+	float: left;
+	width: 20%;
+	padding: 20px;
+}
+
+.rightcolumn {
+	float: right;
+	width: 80%;
+	padding: 20px;
+
+}
+
+.col {
+	padding: 20px;
+	margin-right: 10px;
+	margin-left: 10px;
+	
+}
+
+
+.container-fluid {
+	background-color: #a5b497;
+}
+
+
+/* Per rimuovere i settaggi di default della lista */
+ul {
+list-style-type: none;
+margin: 0;
+padding: 0;
+
+}
+
+li.filters-nav {
+	padding: 10px;
+	border-bottom-style: solid;
+  border-width: 0.3px;
+  border-color: #445D48;
+  font-weight: bold;
+  color: antiquewhite;
+
+}
+
+li.filters-nav:hover {
+	background-color: #FAF8ED;
+	color: grey;
+	transition: 0.4s;
+	opacity: 0.7;
+	
+
+}
+
+
+.accordion, a.leftcolumn:link, a.leftcolumn:visited {
+  background-color: #a5b497;
+  color: #0E2954;
+  justify-content: center;
+  letter-spacing: 1px;
+	font-family: Oswald;
+	margin-top: 10px;
+	cursor: pointer;
+	font-size: 20px;
+  width: 100%;
+  padding: 5px;
+  border: none;
+  text-align: left;
+  outline: none;
+  transition: 0.4s;
+}
+
+a.leftcolumn:link, a.leftcolumn:visited {
+	border-bottom-style: solid;
+  border-width: 2px;
+  border-color: #0E2954;
+}
+
+ol.breadcrumb {	
+	padding-left: 3px;
+	font-size: 13px;
+}
+
+.accordion:hover, a.leftcolumn:hover {
+  background-color: black;
+  color: white;
+  opacity: 0.5;
+}
+
+
+.panel {
+  padding: 10px 15px 0px 15px;
+  background-color: #a5b497;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+}
+
+
+.accordion:after {
+  content: url(../img/expand-more-icon.png); 
+  font-size: 25px;
+  color: black;
+  float: right;
+  
+}
+
+.active:after {
+  content: url(../img/expand-less-icon.png); 
+ 
+}
+
+/*Icona Font Awesome con freccia piena verso destra*/
+.fa-solid {
+	font-size: 30px;
+	float: right;
+	padding: 7px 0;
+
+}
+
+
+.form-check-input {
+	float: right;
+
+}
+
+/*Per modificare lo sfondo della checkbox quando è attiva*/
+.form-check-input:checked {
+	background-color: #59684b;
+}
+
+
+.nav-tabs {
+	justify-content: space-between;
+
+}
+
+.nav-link {
+	font-size: 15px;
+	letter-spacing: 3px;
+}
+
+.nav-link:hover {
+	color: black;
+  background-color: #fff;
+  border-color: #dee2e6 #dee2e6 #fff;
+}
+
+.city {
+	display: block;
+
+}
+
+
+.card {
+	width: 18rem;
+
+}
+
+.card:hover {
+	background-color: rgba(0, 0, 0, 0.5);
+	color: white;
+	opacity: 1;
+	transition: 0.3s;
+	
+}
+
+.card-title {
+	font-size: 18px;
+
+}
+
+.card-title, .card-subtitle {
+	font-family: Oswald;
+	padding-top: 0;
+
+}
+
+.card-subtitle {
+	font-size: 12px;
+	padding-top: 0;
+}
+
+
+.card-text {
+	font-size: 9px;
+	padding-top: 10px;
+}
+
+
+nav, footer {
+	background-color: #82A0D8;
+	
+
+}
+
+
+div {
+
+}
+
+
+.descrizione-crediti {
+	background-color: white;
+	text-align: center;
+	padding: 10px;
+}
+
+
+
+a:link, a:visited {
+	text-decoration: none;
+	color: antiquewhite;
+}
+
+
+a:hover {
+	text-decoration: none;
+	color: grey;
+}
+
+
+a.page-link:link, a.page-link:visited {
+	color: black;
+}
+
+a.page-link:hover {
+	border-color: black;
+}
+
+a.pagina-attiva:link, a.pagina-attiva:visited, a.pagina-attiva:hover {
+	text-decoration: none;
+	color: #333333;
+}
+
+a.breadcrumb:link, a.breadcrumb:visited {
+	color: #262626;
+}
+
+a.testo-crediti:link, a.testo-crediti:visited {
+	color: grey;
+}
+
+a.breadcrumb:hover, a.testo-crediti:hover {	
+	color: black;
+}
+
+
+
+
+
+
+

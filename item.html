@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="it">
+	<head>
+		<title>Angelo Fortunato Formiggini: filosofo del Ridere</title>
+		<!--Favicon-->
+		<link rel="icon" type="image/x-icon" href="img/favicon.ico">
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<!--Bootstrap CSS-->
+		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+		<!-- CSS -->
+		<link rel="stylesheet" href="style/stile-item.css">
+		<!-- Font Google -->
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Noto+Sans">
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oswald">
+		<!--Font Awesome 5-->
+		<script src="https://kit.fontawesome.com/dca82946ca.js" crossorigin="anonymous"></script>
+		<!--Metadatazione DC-->
+		<META NAME="DC.Title" CONTENT="Angelo Fortunato Formiggini: filosofo del Ridere">
+		<META NAME="DC.Creator" CONTENT="Giulia Varriale">
+		<META NAME="DC.Subject" CONTENT="Formiggini, editoria, fascismo, opere, politica">
+		<META NAME="DC.Description" CONTENT="Sito creato per l'esame di Digital Humanities">
+		<META NAME="DC.Publisher" CONTENT="Università di Bologna">
+		<META NAME="DC.Date" CONTENT="2023">
+		<META NAME="DC.Type" CONTENT="Sito web">
+		<META NAME="DC.Format" CONTENT="HTML">
+		<!-- Inserire URI appena carichi sito su Github-->
+		<META NAME="DC.Identifier" CONTENT="TBD una volta che sia pubblicato">		
+		<META NAME="DC.Language" CONTENT="It">
+		<META NAME="DC.Rights" CONTENT="Accesso libero creative commons">
+	</head>
+	<body>
+		<!-- Elemento header per la testata di pagina -->
+		<header>
+			<div class="testata">
+				<!--Attributo Bootstrap "rounded-circle" per avere il logo della testata con bordi circolari-->
+				<img class="logo-testata rounded-circle" src="img/casa-del-ridere.jpg"  alt="Logo della raccolta Casa del Ridere" title="Logo della raccolta Casa del Ridere" />
+				<h1 class= "testo-testata">Angelo Fortunato Formiggini: filosofo del ridere</h1>
+			</div>
+		</header>
+		<!-- Elemento nav per il menù di navigazione -->
+		<nav class="testo-nav">
+			<div><a href="index.html">Home</a> | <a href="#">Introduzione</a> | <a href="#">Biografia</a> | <a href="items-list.html" class="pagina-attiva">Opere</a>
+			</div>
+		</nav>     
+		<!-- Elemento section per gli items -->
+		<section class="container-fluid">
+			<div class="row">				
+				<!--Breadcrumbs-->
+				<div class="col-2">
+					<div class="navbar-breadcrumbs" aria-label="breadcrumb">
+						<ol class="breadcrumb">
+						    <li class="breadcrumb-item"><a href="index.html" class="breadcrumb" title="Torna alla Home"><strong>Home</strong></a></li>
+						    <li class="breadcrumb-item"><a href="items-list.html" class="breadcrumb" title="Torna alle opere"><strong>Opere</strong></a></li>
+						    <li class="breadcrumb-item" aria-current="page"><em>La Ficozza</em></li>
+						  </ol>
+					</div>
+				</div>
+				<!--Main Column-->
+				<div class="col-8">					
+					<!--Titolo e sottotitolo item-->
+					<h4 class="autore"><strong>Formiggini, Angelo Fortunato</strong></h4>
+					<h2 class="item-title">La Ficozza Filosofica del Fascismo e la Marcia sulla Leonardo</h2>
+					<h5 class="item-subtitle">Libro edificante e sollazzevole</h5>
+					<!--Item-->
+					<div class="row">
+						<div class="card card-item w-100">								
+							<!--Carousel dell'immagine-->
+							<div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">			  
+							  <div class="carousel-inner">
+							    <div class="carousel-item active" data-bs-interval="10000">
+							      <img src="img/la-ficozza1.jpg" class="mx-auto d-block" alt="La Ficozza Filosofica del Fascismo, 1923" />			      
+							    </div>
+							    <div class="carousel-item" data-bs-interval="2000">
+							      <img src="img/la-ficozza2.jpg" class="mx-auto d-block" alt="La Ficozza Filosofica del Fascismo, 1923" />			      
+							    </div>								    
+							  </div>
+							  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+							    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+							    <span class="visually-hidden">Previous</span>
+							  </button>
+							  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+							    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+							    <span class="visually-hidden">Next</span>
+							  </button>
+							</div>
+							<div class="container">
+							<!--Sezione con link esterno, licenza, xml/DC e xml/TEI-->
+								<div class="row link-licenza-download">
+									<!--Link della versione digitalizzata dell'item-->
+									<div class="col">
+										<a class="item-digitale" href="https://babel.hathitrust.org/cgi/pt?id=mdp.39015058519961&seq=5" target="blank" title="Link alla versione digitalizzata della risorsa"><i class="fa-solid fa-arrow-up-right-from-square"></i>
+										<p>Full-text della risorsa digitalizzata</p></a>
+									</div>
+									<!--Licenza-->
+									<div class="col">
+										<a class="licenza" href="https://www.hathitrust.org/the-collection/search-access/access-use-policy/#ic-us-google" target="blank" title="Licenza della versione digitalizzata della risorsa"><i class="fa-brands fa-creative-commons-zero"></i>
+										<p>Public Domain, Google-digitized</p></a>
+									</div>
+									<!--XML-DC-->
+									<div class="col">
+										<a class="xml-dc" href="ficozza-dc.xml" target="blank" title="Link al file XML/DC"><i class="fa-solid fa-download"></i>
+										<p>XML/DC</p></a>
+									</div>
+									<!--XML-TEI-->
+									<div class="col">
+										<a class="xml-tei" href="ficozza-tei.xml" target="blank" title="Link al file XML/TEI"><i class="fa-solid fa-download"></i></i>
+										<p>XML/TEI</p></a>
+									</div>
+								</div>
+							</div>
+							<!--Descrizione del contenuto dell'opera-->
+							<div class="descrizione">
+								<p class="text-title"><strong>DESCRIZIONE</strong></p>
+								<p>A seguito delle ingiustizie perpetrate dal ministro Giovanni Gentile nei confronti di Formiggini, l'editore modenese si fece giustizia già nell'ottobre 1923 pubblicando <em>La ficozza filosofica del fascismo e la marcia sulla Leonardo</em>. <br>La ficozza, in dialetto romanesco, è il bernoccolo che spunta sulla testa in conseguenza di un colpo ricevuto: per lui, Gentile era il colpo e l'escrescenza cresciuta sulla testa del fascismo. Il libro fu insieme un bilancio della sua attività, una satira anti-gentiliana e uno sfogo, ironico e amaro, per la prepotenza subita.</p>
+							</div>
+							<!--Metadati dell'opera-->
+							<div class="card-body">
+								<p class="card-text">
+									<p class="text-title"><strong>DETTAGLI</strong></p>
+									<p><strong>Livello bibliografico | </strong>Monografia</p>
+									<hr>
+									<p><strong>Tipo documento | </strong>Testo</p>
+									<hr>
+									<p><strong>Autore principale | </strong><a class="item-link" href="https://www.wikidata.org/wiki/Q535961" target="blank" title="Identificativo Wikidata di Formiggini, Angelo Fortunato">Formiggini, Angelo Fortunato<sup>Wikidata</sup></a></p>
+									<hr>
+									<p><strong>Titolo | </strong>La ficozza filosofica del fascismo e la marcia sulla Leonardo; libro edificante e sollazzevole.</p>
+									<hr>
+									<p><strong>Variante del titolo | </strong>La ficozza filosofica del fascismo.</p>
+									<hr>
+									<p><strong>Pubblicazione | </strong>Roma : A. F. Formiggini, 1923 (Modena : Tip. G. Ferraguti & C.)</p>
+									<hr>
+									<p><strong>Descrizione fisica | </strong>377 p. : ill. ; 22 cm.</p>
+									<hr>
+									<p><strong> Numeri | </strong>[OCoLC]: 12011431<br>[LCCN]: 93635500</p>
+									<hr>
+									<p><strong> Soggetti | </strong><a class="item-link" href="https://lccn.loc.gov/sh85047355" target="blank" title="Identificativo LCSH per Fascism">Fascism<sup>LCSH</sup></a> – <a class="item-link" href="https://thes.bncf.firenze.sbn.it/termine.php?id=6889" target="blank" title="Identificativo del soggettario della BNCF per Editoria">Editoria<sup>BNCF</sup></a> – Italia – 1918-1923 – <a class="item-link" href="https://thes.bncf.firenze.sbn.it/termine.php?id=13371" title="blank" title="Identificativo del soggettario della BNCF per Diari e memorie">Diari e memorie<sup>BNCF</sup></a></p>
+									<hr>
+									<p><strong> Classificazione Dewey | </strong><a class="item-link" href="https://opac.bncf.firenze.sbn.it/showDeweys?deweyHundreds=0&deweyTens=07&deweyOnes=075" target="blank" title="Navigatore Dewey della BNCF">075 (20.) GIORNALI E GIORNALISMO IN ITALIA E IN ALCUNI TERRITORI LIMITROFI<sup>DDC</sup></a></p>
+									<hr>
+									<p><strong>Note | </strong>"Le pagine che seguiranno sono pagine autobiografiche."--p. [21]<br>"Edizioni Formigginiane, non esaurite": p. [357]-377.</p>
+									<hr>
+									<p><strong> Lingua di pubblicazione | </strong>ITALIANO</p>
+									<hr>
+									<p><strong> Lingua dell'opera originale | </strong>ITALIANO</p>
+									<hr>
+									<p><strong>Ente di appartenenza | </strong><a class="item-link" href="https://www.geonames.org/8085810/michigan-state-university-library.html" target="blank" titolo="Identificativo Geonames della University of Michigan Library">The University of Michigan Library<sup>Geonames</sup></a></p>
+									<hr>
+									<p><strong>Collocazione locale | </strong>DG571 .F725</p>
+									<hr>
+									<p><strong> Codice identificativo | </strong>990003750970106381</p>
+								</p>
+							</div>
+						</div>
+					</div>					
+				</div>
+				<!--Aside-->
+				<div class="col-2 aside">
+					<div>
+						<p class="intro-item-correlato">Scopri altre opere dello stesso autore</p>
+						<i class="fa-solid fa-angles-down intro-item-correlato"></i>
+						<a href="#"> 
+						<div class="card item-correlato">
+							<img src="img/dizionarietto.jpg" class="card-img-top h-100" alt="Dizionarietto rompitascabile, 1928" />
+							<div class="card-body">
+								<h5 class="card-title"><strong>Formiggini, Angelo Fortunato</strong></h5>
+								<h6 class="card-title">Dizionarietto rompitascabile</h6>	
+								<h6 class="card-subtitle">degli Editori Italiani, compilato da uno dei suddetti. Seconda edizione con nuovi errori ed aggiunte e con una appendice egocentrice</h6>
+								<p class="data"><strong>1928</strong></p>	
+							</div> 														
+						</div></a>
+					</div>	
+					<div>
+						<p class="intro-item-correlato">Guarda il video YouTube sul servizio della Rai dedicato all'autore</p>
+						<i class="fa-solid fa-angles-down intro-item-correlato"></i>
+						<a href="https://www.youtube.com/watch?v=f5H3SyBUCdk&t=8s" target="blank" title="Link diretto al video Youtube"> 
+						<div class="card item-correlato">
+							<img src="img/youtube.png" />
+							<div class="card-body">
+								<h5 class="card-title"><strong>Angelo Formiggini, l'editore che non si piegò al fascismo</strong></h5>
+								<h6 class="card-subtitle">Fonte: trasmissione <em>Oggi è un altro giorno</em></h6>
+								<p class="data"><strong>22/03/2023</strong></p>	
+							</div> 														
+						</div></a>
+					</div>				
+				</div>
+			</div>	                   
+		</section>
+		<!--Elemento section per crediti e licenze-->
+		<section>
+			<div class="descrizione-crediti">
+				<div><a href="#" class="testo-crediti">Credits</a> | <a href="#" class="testo-crediti">Licenze</a></div>
+			</div>
+		</section>
+		<!-- Elemento footer per il piede di pagina -->
+		<footer>
+			<div class="testo-footer">
+				<h6>&copy; Copyright Giulia Varriale, 2023 - Corso di Digital Humanities e Patrimonio Culturale</h6>
+			</div>
+		</footer>
+		<!--Bootstrap Js-->
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+
+	</body>
+</html>

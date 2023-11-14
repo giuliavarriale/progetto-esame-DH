@@ -1,0 +1,298 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title xml:lang="it">La ficozza filosofica del fascismo e la marcia sulla Leonardo; libro edificante e sollazzevole. Versione digitalizzata dell'esemplare analogico</title>
+				<author xml:id="AFF" ref="https://www.wikidata.org/wiki/Q535961">Formiggini, Angelo Fortunato</author>
+				<respStmt>
+					<resp>Codifica TEI</resp>
+					<name xml:id="GV">Giulia Varriale</name>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<publisher>HathiTrust</publisher>
+				<date when="2005-11-18">18 nov 2005</date>
+				<availability xml:lang="en" status="free">
+					<licence target="https://www.hathitrust.org/the-collection/search-access/access-use-policy/#pd-google"><p>Public Domain, Google-digitized.</p></licence>
+				</availability>
+			</publicationStmt>
+			<sourceDesc xml:lang="it">
+				<bibl type="monogr">
+					<title>La ficozza filosofica del fascismo e la marcia sulla Leonardo: libro edificante e sollazzevole.</title>
+					<author ref="#AFF">Formiggini, A. Fortunato</author>
+					<series>
+						<title>Classici del ridere</title>
+					</series>
+					<imprint>
+						<pubPlace>Roma</pubPlace>
+						<publisher>A. F. Formiggini</publisher>
+						<date when="1923">1923</date>	
+					</imprint>				
+					<p>Esemplare conservato alla <name type="organization" ref="https://www.geonames.org/8085810/michigan-state-university-library.html">University of Michigan Library</name>. CALL NAME DG571 .F725</p>	
+				</bibl>
+			</sourceDesc>
+		</fileDesc>
+	</teiHeader>
+	<text>
+		<front>
+			<!--Frontespizio-->
+			<div type="frontispiece">
+				<!--Recto frontespizio-->
+				<pb n="3" />
+				<p>
+					<choice>
+						<abbr>COMM.</abbr>
+						<expan>COMMENDATORE</expan>
+					</choice>
+					<choice>
+						<abbr>PROF.</abbr>
+						<expan>PROFESSORE</expan>
+					</choice>
+					<name type="person" ref="#AFF">						
+						A. F. FORMIGGINI
+					</name>
+				</p>
+				<p>LAUREATO IN FILOSOFIA DEL RIDERE NELLA 
+					<choice>
+						<abbr>R.</abbr>
+						<expan>REGIA</expan>
+					</choice>
+					<choice>
+						<abbr>U.</abbr>
+						<expan>UNIVERSITA'</expan>
+					</choice>
+				DI BOLOGNA</p>
+				<p>La Ficozza Filosofica<lb/> del Fascismo<lb/> e la Marcia sulla Leonardo</p>
+				<p>LIBRO EDIFICANTE E SOLLAZZEVOLE</p>
+				<P>
+					<figure>
+						<figDesc>Stemma della Casa editrice A.F.Formiggini</figDesc>
+					</figure>
+				</P>
+				<p><name type="person" ref="#AFF">A. F. FORMIGGINI</name> EDITORE IN <name type="place">ROMA</name></p>
+				<p><date when="1923">1923</date></p>
+				<!--Verso del frontespizio-->
+				<pb n="4" />
+				<p>OPERA DICHIARATA DI DOMINIO PUBBLICO<lb/> PER RAGIONI DI UTILITÀ GENERALE</p>
+				<p>Riproduzione e traduzione autorizzate<lb/> non solo nella Svezia, nella Danimarca e in Olanda<lb/> ma anche in tutti gli altri paesi</p>
+				<p>
+					<name type="place">MODENA</name> - 
+					<name type="organization">
+						<choice>
+							<abbr>TIP.</abbr>
+							<expan>TIPOGRAFIA</expan>
+						</choice>
+						G. FERRAGUTI &amp; C. 
+					</name> -
+					<date when="1923-10">Ottobre 1923.</date>					
+				</p>
+			</div>						
+			<!--Dediche-->
+			<div type="dedication">
+				<!--Prima pagina di dediche-->
+				<pb n="5" />
+				<p>ALLE LORO ECCELLENZE<lb/>
+				<name type="person">BONOMI</name> <name type="person">CORBINO</name> <name type="person">MARTINI</name> <name type="person">SFORZA</name><lb/>
+				E AGLI ILLUSTRI AMICI<lb/>
+				<name type="person">ALMAGIÀ</name> <name type="person">ARNALDI</name> <name type="person">CALABI</name> <name type="person">CHIOVENDA</name><lb/>
+				<name type="person">DI SCANNO</name> <name type="person">PERASSI</name><lb/>
+				CHE SOGNARONO UN MIO SOGNO</p>
+				<p>AL CIGNO DI CASTELVETRANO<lb/>
+				EMULO DI <name type="person">GIORGIO DANDIN</name><lb/>
+				E AL SUO<lb/>
+				<name type="person">CIRENEO GIANNINI</name><lb/>
+				POLIFRONTE<lb/>
+				AUTORI PRINCIPALI DI QUESTA MIA APOLOGIA</p>
+				<p>D. D. D.</p>
+				<!--Seconda pagina di dediche-->
+				<pb n="6"/>
+				<p>ANCHE ALLA TUA DOLCE CARA MEMORIA<lb/>
+				<name type="person" xml:id="GR">GIOVANNI RABIZZANI</name><lb/>
+				<rs ref="#GR">FRATELLUCCIO FIGLIOLONE<lb/>
+				EUFORICO</rs><lb/>
+				IN VITA ED IN MORTE<lb/>
+				CUOR GENTILE<lb/>
+				SEBBENE GENTILIANO<lb/>
+				CROCIANO<lb/>
+				SENZ' ESSERE UNA CROCE					
+				</p>
+			</div>
+			<!--Indice-->
+			<div type="contents">
+				<head>INDICE</head>
+				<!--Prima pagina dell'indice-->
+				<list type="index">
+					<item>Un occhiello.......pag. 1</item>
+					<item>Tre motti...........2</item>
+					<item>Ritratto.... dell'Editore......(f.t.)</item>
+					<item>Il frontispizio.........3</item>
+					<item>Rinuncia ai diritti d'autore.....4</item>
+					<item>Una dedica.......5</item>
+					<item>Un'altra dedica......6</item>
+					<item>Indice.......7</item>
+					<item>Detti memorabili.....9</item>					
+				</list>
+				<head>LA FICOZZA FILOSOFICA DEL FASCISMO
+				E LA MARCIA SULLA LEONARDO</head>
+				<list type="index">					
+					<pb n="1" />
+					<item>Lettore,.......pag. 15</item>
+					<item>I. Preludio autobiografico.......21</item>
+					<item>II. L'Italia che scrive.......39</item>
+					<item>III. Il Consorzio Editoriale per i Classici Greco-Latini.......59</item>
+					<item>IV. Gli sviluppi dell'ICS.......73</item>
+					<item>V. I profili bibliografici dell'ICS.......81</item>
+					<item>VI. L'Assemblea Inaugurale dell'Istituto.......103</item>
+					<item>VII. La Biblioteca dell'ICS.......125</item>
+					<item>VIII. Madre e figlia.......139</item>
+					<item>IX. La Ficozza filosofica del Fascismo....167</item>
+					<item>X. La Grande Enciclopedia Italica.....179</item>
+					<item>XI. L'ultima seduta di Consiglio.....213</item>
+					<!--Seconda pagina dell'indice-->
+					<pb n="2" />
+					<item>XII. L'Assemblea del 21 Febbraio 1923.....pag. 225</item>
+					<item>XIII. L’Inchiesta........239</item>
+					<item>XIV. Dopo l'inchiesta........281</item>
+					<item>XV. Profezie.......293</item>
+					<item>XVI. Gloria.......319</item>
+					<item>XVII. Nuovi ozi formigginiani........327</item>
+					<item>XVIII. La politica e l'ICS......339</item>
+					<item>Edizioni formigginiane non esaurite.....357</item>
+					<item>Indice delle cose e dei nomi più notevoli.......373</item>
+				</list>
+			</div>
+		</front>
+		<body>
+			<pb n="167" />
+			<!--Capitolo IX. LA FICOZZA FILOSOFICA DEL FASCISMO-->
+			<div type="section" xml:id="capitoloIX">
+				<head>IX.<lb/>
+				LA FICOZZA FILOSOFICA<lb/>
+				DEL FASCISMO</head>
+				<p>Accidenti alla filosofia!<lb/>
+				Il lettore si chiederà:<lb/>
+				- Ma perchè <name ref="#GG">Gentile</name> aveva tanto sui suoi illustri corbelli quel povero cristo di <rs ref="#AFF">A. F. F.</rs> che non ha mai fatto niente di male a nessuno?<lb/>
+				- Dissensi filosofici!<lb/>
+				(Accipicchia che lusso !)					
+				</p>
+				<p>Mi son domandato molte volte che diavolo ci potesse essere dentro la filosofia di <name ref="#GG">Gentile</name> da giu-stificare una così ostinata avversione di lui per tutto ciò che ho fatto prima e dopo, dentro e fuori la <name type="organization">Leonardo.</name><lb/>
+				lo sono di poco più giovane o di poco meno vecchio di <name type="person">Gentile</name>. Quando mi laureai in filosofia il suo attualismo non s'era ancora affermato. Immerso poi nella mia rude fatica editoriale, non potei mai per-mettermi lo spasso di sublimarmi nelle voluttà empiree
+				<pb n="168" />
+				dell'<emph>atto puro</emph> che tanta virtù di seduzione esercita sulle menti attonite delle giovani e bionde maestre e professoressine che si sono iniziate in questi ultimi anni alla pratica dell'insegnare 
+				<choice>
+					<sic>a traverso</sic>
+					<corr resp="#GV">attraverso</corr>
+				</choice> 
+				una pre-parazione filosofica alla moda.<lb/>
+				Perchè anche in filosofia, come nel vestire, c'è la moda: la moda del vestire viene da Parigi e giunge molto in ritardo nei paesetti di montagna: vi giunge quando a Parigi un'altra moda è già sorta.<lb/>
+				<name type="person" xml:id="GG">Giovanni Gentile</name> ha avuto l'abilità e la innega-bile genialità di creare una moda filosofica e di saperla varare soffiando le sue parole in alcuni fonografi che sono andati predicando a destra e a sinistra il novissimo vangelo, che, annunciatosi come ribellione all’empirismo della precedente moda, trovò larghezza di consensi.<lb/>
+				In certi paesi dell'America del Sud <emph><foreign xml:lang="fr">le dernier cri</foreign></emph> filosofico di marca italiana è ancora quello del po-vero <name type="person">Ardigò</name>; nel <foreign xml:lang="fr">demimonde</foreign> intellettuale scolastico nazionale l'attualismo sta giungendo ora che esso ha già compiuto il suo ciclo, ora che, coll' esser divenuto pretesto arbitrario di una tirannide dottri-nale, ha raggiunto lo zenit della sua parabola per précipitare rapidamente nel buio della storia della filosofia, mentre nuove correnti di pensiero si affac-ciano all'orizzonte della filosofia in atto. Forsé siamo
+				alla vigilia, non di un nuovo filosofo, ma di una nuova filosofia ed io mi auguro che sarà varia di contenuto e italiana negli spiriti e nelle forme. Tutti i capo-scuola sono sempre stati deleterii. Mi auguro che sorgano filosofi senza scolari, filosofi che destino
+				<pb n="169"/>
+				la curiosità e l'interesse del pubblico e dei discepoli per la filosofia e che insegnino non la loro filosofia ma l'arte di filosofare.<lb/>
+				Perchè il bisogno che sentì <name ref="#GG">Giovanni Gentile</name> di reagire e di spezzare la morsa chiusa del pensiero che era di moda quando egli iniziò la sua vita di pensiero, non fu un bisogno suo o dei suoi fonografi, ma fu un bisogno connaturato nello spirito umano, insopprimibile, insaziabile. E lo stesso bisogno in-cessante, inesausto sente la nuova generazione che ora si affaccia alla vita e che, invece di intendere la filosofia come l'assimilazione di uno schema pro-posto dalla mente di un <rs ref="#GG">ministro</rs>, intende la filosofia come una esigenza dello spirito che ognuno deve liberamente e personalmente appagare. Un mio grande poeta, <name type="person">Francesco Chiesa</name>, che, per essere vero poeta, è più filosofo degli stessi filosofi, ha detto circa così (cito a memoria):<lb/>
+				<q>« La suprema voluttà dell'uomo non è la mensa, non è l'amore, è il sillogismo ».</q>
+				</p>
+				<p>Ma questi sono sentimenti nuovi per me a cui mi hanno fatto giungere, per inesorabile concatena-zione logica e psichica, gli avvenimenti recenti: come non mi ero mai occupato di politica, non mi ero mai occupato sul serio di filosofia.<lb/>
+				lo non ero salito mai nell'empireo dell'<emph>atto puro</emph> ed è stato solo in queste ultime giornate d'ozio che son stato preso dalla curiosità di vedere quali fos-sero le premesse teoretiche dell'attualismo, a me ignote o mal note, per scoprire quale accidente di male potessi avere loro fatto, tanto da giustificare
+				<pb n="170" />
+				una così tenace avversione di <name ref="#GG">Gentile</name> e dei suoi fonografi per tutto ciò che, in tanti anni, è zompato fuori dalla mia umile testa editoriale, e anche per vedere se l'attualismo fosse qualche cosa di così arcano e di così santo che, l' assumere la responsa-bilità di annunciarne la saturazione e la involuzione, potesse costituire una colpa rispetto alla dignità e
+				alla eccellenza del pensiero filosofico nazionale.<lb/>
+				Non sono così merlo di volere mettere me, pulce, contro l'elefante attualista, nè oserei nemmeno sal-targli dentro la proboscide, chè uno sternuto bene assestato potrebbe lanciarmi con la capoccia contro il muro; dico soltanto che, messimi davanti i vo-lumi di <name ref="#GG">Gentile</name>, non v'ho trovato nulla di così so-stanzialmente antitetico con quanto io ho fatto da giustificare così tenace e preconcetta ostilità.</p>
+				<p>L'attualismo è un prodotto tedesco - castelvetra-nizzato che farà bella pompa di sè nei musei filo-sofici del futuro come indice della facoltà inventiva	di un uomo: ma la inesorabile concatenazione di conseguenze pratiche che il <name ref="#GG">Gentile</name> ne ha tratto e cioè la sua irreducibile avversione per quanti non sono affiliati alla sua dottrina è un prodotto del suo temperamento congenito che è portato a distinguer gli uomini in due nette categorie: quella degli amici e quella dei nemici senza possibilità di zone inter-medie; è l'effetto di una organizzazione pratica a base materialistica, ed empirica, non il risultato di premesse teoretiche o gnoseologiche.<lb/>
+				Ed è tanto vero che l'idealismo attualista in sè e per sè sarebbe una faccenda assolutamente innocua
+				<pb n="171" />
+				che, spogliando i libri non strettamente filosofici di <name ref="#GG">Gentile</name>, vi troviamo una grande ricchezza di spunti su cui si potrebbe costruire la linea magnifica per una nobilissima pratica di vita:<lb/>
+				<q>« La scuola di un popolo libero è contro tutte le sette: dei giacobini sanculotti e dei giacobini col codino e con la chierica ».</q>
+				<q>« La scuola (elementare e media) non dovrà mai avere un programma di partito ».</q>
+				<q>« Cultura intellettuale, che è pure cultura mo-rale, è strumento primo e potente di prosperità eco-nomica »</q>
+				<q>« La cultura è dignità umana e redenzione ci-vile ».</q>
+				<q>« Per esser veramente nazionalisti converrebbe metter da parte il nazionalismo: <foreign xml:lang="la">canis nationalis, asinus universalis</foreign> ».</q>
+				<q>« Dire che l'affermazione della libertà dello Stato è panteismo tedesco e antireligiosità è dar prova di troppo scarsa conoscenza dei principi del liberalismo moderno la cui tradizione è tutta laica ».</q>
+				<q>« Quando cercate la scienza voi dovete mon-dare l'animo dall'adulazione, dalla 
+					<choice>
+						<sic>rettorica</sic>
+						<corr resp="#GV">retorica</corr>
+					</choice>
+				, dal falso, immergervi nelle cose dimenticando gli uomini e la	fortuna che vorreste fare fra loro ».</q>
+				<pb n="172" />
+				Tutte gemme che si potrebbero raccogliere in un monile, con molte altre, e farne un superbo <emph><foreign xml:lang="fr">collier</foreign></emph> per l'attuale ministro perchè non se ne scordasse mai.<lb/>
+				Ma tutte queste gemme non hanno nulla a che fare con lo spunto teoretico dell'eterno divenire spirituale, del <foreign xml:lang="gr">πάντα ῥεῖ</foreign> che forma il nucleo centrale del pensiero gentilesco, da cui tutto il suo edificio di pensiero promana.</p>
+				<figure>
+					<figDesc>Tre stelline di separazione nella pagina</figDesc>
+				</figure>
+				<p>Prendete in mano il suo libro <emph>Teoria generale dello spirito come atto puro</emph> prima di leggere tutto il resto. <q><emph>Leggerete il resto</emph></q>, vi avverte lo stesso <rs ref="#GG">Autore</rs>, <q><emph>solo se vi sembrerà che ne valga la pena.</emph></q> Addentra-tevi negli arzigogoli della dialettica gentiliana: quando vi sarete assuefatti allo stile e al frasario che è una ingegnosa e facile (per quanto complessa) formula, troverete alla fine, verso la conclusione, questa pa-gina che sembra un arcano, ma che invece voi capirete benissimo. Ma appena superato lo sforzo per capire resterete con un palmo di naso:<lb/>
+				<q>« Il pensiero ha in se stesso come una doppia natura; e la sua intrinseca contraddizione è una forma dell'attività irrequieta del pensiero. Il pensato infatti è impensabile perchè pensato, e pensato perchè impensabile. Il pensato è cosa, natura, ma-teria, tutto ciò che possiamo considerare come limite del pensiero; e ciò che limita il pensiero è impen-
+				<pb n="173" />
+				sabile. Il pensato è l'altro dal pensiero, o quel ter-mine innanzi al quale sentiamo che il pensiero s'arresta, e la cui essenza è destinata a sottrarsi sempre mai al nostro sguardo. Conosceremo le proprietà o qualità, ma dietro ad esse rimarrà la cosa, inattingibile. E ogni pensato è così, e solo a questo patto pensato; perchè ogni pensato è cosa, e in quanto tale incommensurabile con lo spirito. E pure, perchè impensabile, la cosa è pensata, la sua stessa impensabilità è pensiero. Non essa è in se medesima impensabile di là dalla sfera del nostro pensare, ma noi la pensiamo come impensabile: nella sua impensabilità, cioè, essa è posta dal pen-siero; o meglio in essa come impensabile si pone il pensiero. Il quale ha questa natura di porsi, ed è soltanto ponendosi. Soltanto ponendosi: il che vuol dire, che se si guarda come semplicemente posto, come resultato del porsi, esso non è più porsi, non è più pensiero; e il pensiero, non potendo non essere pensiero, si pone senza fissarsi come posto: si pone cioè come <emph>atto</emph> che non è mai <emph>fatto</emph> ed è quindi atto puro, atto eterno ».</q>								
+				</p>
+				<p>Certo le bionde maestre e professoressine che s'erano attese chi sa quale arcano dall'<emph>atto puro</emph>, rimarranno un po' deluse, ma in tutto questo bel ragionare che male c'è? Che fastidio dà a noi che <name ref="#GG">Gentile</name> ragioni così complessamente, se così gli piace?<lb/>
+				Veramente, quell'io e quel non io, quell'oggetto estraneo al soggetto che lo pensa, che addirittura lo crea, senza cui non sarebbe, e che ritorna ad 
+				<pb n="174" />
+				ogni voltar di pagina di <name ref="#GG">Gentile</name> e dei suoi fonografi, è una cosa un po' monotona e melanconica anzi
+				che no. Questo calamaio in cui io intingo la penna, il quale non è, in sè, ma che è in quanto io lo penso, lo creo dentro di me, e che quando uscirò da qui non resterà più qui, ma potrò portarmelo via con me, nascosto entro l'astuccio del mio <emph>io</emph>,	senza che gli uscieri della <name type="organization">Biblioteca Estense</name>, in cui scrivo questa pagina, possano poi denunciarmi al Ministro della 
+				<choice>
+					<abbr>P.</abbr>
+					<expan>Pubblica</expan>
+				</choice>
+				<choice>
+					<abbr>I.</abbr>
+					<expan>Istruzione</expan>
+				</choice>  
+				<emph>per appropriazione indebita</emph> (come direbbe <name type="person">Giannini</name>); questo calamaio che entrerà nel-l'io di altri studiosi che verranno dopo di me; questo vuoto che c'è fuori me, dentro di me; questo viver fra i fantasmi che ciascuno si pone; questo esser diverso ora da quello che si era un minuto fa; questo vivere di una psicologia alla giornata; questa vita nostra individuale 
+				<q>« che è per sè insaziabile perchè è sempre <emph>vuota</emph> »</q> 
+				come ha detto il più barbuto fo-nografo dell'attualismo, il quale ha aggiunto che 
+				<q>« il <foreign xml:lang="gr">πάντα ῥεῖ</foreign> ha un significato solo in considerazione del continuo morire di se stessi »</q>;
+				questo fluttuare dell' io che si mette la camicia nera quando gli con-viene; questo povero io che va, che viene, che salta, che balla, ti rompe un po' le scatole, come t'infa-stidisce la lama di <name type="person">Aurelio Greco</name> quando questi si diverte a metterti la punta sotto il naso, col pro-posito di non colpirti, ma di non lasciarsi colpire e tu non riesci mai a inchiavardargli la spada con una parata di mezzo cerchio per infilargli la mam-mella destra affinchè la faccia finalmente finita.<lb/>
+				Ma il 
+				<choice>
+					<sic>giuoco</sic>
+					<corr resp="#GV">gioco</corr>
+				</choice> 
+				di <name type="person">Aurelio Greco</name> è eminentemente istruttivo, come eminentemente istruttivo e altrettanto
+				<pb n="175" />
+				ed anche più delicato e ingegnoso è quello di <name ref="#GG">Gen-tile</name>, il quale si potrebbe divertire a suo agio, senza voler trarre da premesse ideologiche conseguenze non necessarie, visto che la sua filosofia è un po-modoro maturato al bel sole di <name type="place">Sicilia</name> e nato da seme acquistato a <name type="place">Konisberga</name>, che si adatta a qual-siasi pratica di vita e che può esser la premessa altrettanto logica del Fascismo quanto del.... viceversa.
+				</p>
+				<p>A Torino abbiamo avuto infatti il caso di un giovane filosofo imbevuto di gentilesimo che s'è servito delle idee del suo maestro per combattere e il gentilesimo e soprattutto il Fascismo di cui il Mi-nistro della 
+				<choice>
+					<abbr>P.</abbr>
+					<expan>Pubblica</expan>
+				</choice>
+				<choice>
+					<abbr>I.</abbr>
+					<expan>Istruzione</expan>
+				</choice>
+				ambirebbe di essere il cardine con-cettuale e dottrinale.<lb/>
+				Povero Fascismo!				
+				</p>
+				<p><name ref="#GG">Gentile</name> ha valore ed è grande come palleggiatore di idee, è un giocoliere di idee che sa ripetere in una pagina cinquanta volte la parola soggetto, og-getto, io, con significato sempre diverso e sempre esatto, esercizio mentale meraviglioso che somiglia a quelle virtuosità fonetiche che si insegnano ai bimbi per esercitarli a muovere svelta la lingua:<lb/>
+				<q>« Apelle, figlio di Apollo, fece una palla di pelle di pollo, e tutti i pesci venivano a galla per vedere la palla di pelle di pollo, fatta da Apelle figlio di Apollo ».</q><lb/>
+				Non sembra questo il seguito della pagina più sopra riportata? Lo stile è identico!
+				<pb n="176" />
+				Questo palleggiare la realtà dentro e fuori del soggetto che la crea, questo insistere per volumi interi a dire e a ridire se l'<emph>oggetto</emph> <emph>dentro</emph> o <emph>fuori</emph> del <emph>soggetto</emph> (come nel celebre e salace aneddoto veneziano del <emph>mi ghe l'ho dentro</emph>), è cosa monotona ed estensibile all'infinito, come la frottola dell'uovo e della gallina, ma è anche cosa assolutamente in-nocua di cui tutta l'umanità può bene infischiarsi, anzi possiamo dichiararci meravigliati ed ammirati di tanta elasticità mentale e considerare la costru-zione concettuale del <name ref="#GG">Gentile</name> come un magnifico poema. È proprio per questo che mi sono permesso, nella dedicatoria di questo libro che mi è caro, di designare <name ref="#GG">Gentile</name>, per antonomasia, come il canoro palmipede di <name type="place">Castelvetrano.</name><lb/>
+				Ma l'astuzia di sfruttare la bella parola, <emph>idealismo</emph>, che in filosofia ha un significato tecnico specifico,
+				giocando su l'equivoco e sfruttando l' alta signifi-cazione che tale parola ha fra il volgo, è qualche cosa che rasenta il trucco, che è, senz'altro, un trucco.<lb/>
+				<emph>Idealista puro</emph> (nel significato comune, e però più nobile, della espressione) era <name type="person">Roberto Ardigò</name> che morì millenario ancora vergine e rimasto sempre estraneo alla vita pratica.<lb/>
+				<emph>Positivista e materialista</emph> è <name ref="#GG">Gentile</name>, e molto più di lui sono i suoi fonografi, che fanno, di una for-mula filosofica astratta, un filo diabolico che tiene legata una consorteria.<lb/>
+				La sterile aridità del vostro <emph>atto puro</emph> non dà fastidio a nessuno e noi ce ne infischiamo. A noi
+				<pb n="177" />
+				basterebbe che, con la scusa dell'<emph>atto puro</emph>, non faceste <emph>atti impuri</emph>.					
+				</p>
+				<p>Credo che in tutta la storia della filosofia non ci sia mai stata, in nessun paese del mondo, una forma più rigidamente, più inesorabilmente settaria dell'attualismo.<lb/>
+				<q>« Gli altri, diversi da noi, dalla nostra coscienza >></q> dice il più barbuto fonografo <q>« ci sono ignoti anzi
+				non esistono affatto: ci sono nemici, al massimo, ostacoli irritanti.... ».</q><lb/>
+				Il mio valoroso amico <name type="person">Lanzillo</name> e il <name type="person">Volpe</name> che, si dice, abbiano suggerito a <name type="person">Benito Mussolini</name> di sce-gliersi come collaboratore il <name ref="#GG">Gentile</name>, in questa for-midabile ora della nostra vita nazionale, hanno as-sunto una ben grave responsabilità di fronte alla Storia....<lb/>
+				Un grande numero di italiani colti, e i fascisti più intellettuali e di più vecchia data, considerano l'attualismo filosofico gentiliano come una fortuita e non felice escrescenza del fascismo.<lb/>
+				I benigni lo dicono un « fungo » i più lo dicono un « bubbone ».<lb/>
+				Ma il fungo è un vegetale e il bubbone è qualche cosa di patologico e che sta a denotare un conte-nuto di putredine.<lb/>
+				lo, in ricordo della antica benevolenza di cui un giorno il <name ref="#GG">Gentile</name> mi ha onorato, ho voluto trovare la espressione più graziosa e più propria di ficozza, che può star benone sulla punta della lingua di ogni italiano, tanto più ora che <name ref="#GG">Gentile</name> ha fottuto la Crusca; è una parola romanesca che sta a denotare
+				<pb n="178" />
+				quella protuberanza che si manifesta sulla fronte di chi riceva una grossa botta. <name ref="#GG">Gentile</name> è una tegola caduta sul capo del fascismo, o, per meglio dire, è la ficozza, la <foreign xml:lang="gr">εμποτισμός</foreign>, prodotta dalla tegola.<lb/>
+				I nemici del fascismo gli dovrebbero fare un mo-numento.<lb/>
+				Ma forse saranno gli stessi fascisti a « lapidarlo » per i primi. Molti non aspettano che un cenno.	
+				</p>				
+			</div>
+		</body>		
+	</text>
+</TEI>
